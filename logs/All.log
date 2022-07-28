@@ -1,0 +1,74 @@
+[27/03/2022 - 15:53:56.542 INFO] (database.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\localModules\database.js'
+[27/03/2022 - 15:53:57.019 INFO] (class_serverData.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\localModules\class_serverData.js'
+[27/03/2022 - 15:53:57.024 INFO] (class_globalSettings.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\localModules\class_globalSettings.js'
+[27/03/2022 - 15:53:57.028 INFO] (index.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\index.js'
+[27/03/2022 - 15:53:57.030 INFO] (index.js): 
+[27/03/2022 - 15:53:57.030 INFO] (index.js): 
+[27/03/2022 - 15:53:57.030 INFO] (index.js): =======================================
+[27/03/2022 - 15:53:57.037 INFO] (index.js): ========== [Starting script] ==========
+[27/03/2022 - 15:53:57.039 INFO] (index.js): =======================================
+[27/03/2022 - 15:53:57.039 INFO] (index.js): 
+[27/03/2022 - 15:53:57.060 INFO] (index.js): Tentative de connection à MongoDB...
+[27/03/2022 - 15:53:57.561 DEBUG] (database.js): MongoClient singleton set.
+[27/03/2022 - 15:53:57.564 INFO] (index.js):   Mongo instance connected.
+[27/03/2022 - 15:53:58.189 INFO] (index.js): Starting all modules...
+[27/03/2022 - 15:53:58.202 INFO] (index.js):   Starting ./bot/run ...
+[27/03/2022 - 15:53:58.208 INFO] (run.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\run.js'
+[27/03/2022 - 15:53:58.234 INFO] (botFunctions.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\botLocalModules\botFunctions.js'
+[27/03/2022 - 15:53:58.240 INFO] (singleton_bot.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\botLocalModules\singleton_bot.js'
+[27/03/2022 - 15:53:58.380 INFO] (initDatas.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\events\guildCreate\initDatas.js'
+[27/03/2022 - 15:53:58.430 INFO] (directMessageCommands.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\events\message\directMessageCommands.js'
+[27/03/2022 - 15:53:58.436 INFO] (guildCommands.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\events\message\guildCommands.js'
+[27/03/2022 - 15:53:58.458 INFO] (main.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\events\ready\main.js'
+[27/03/2022 - 15:53:58.466 INFO] (help.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\help.js'
+[27/03/2022 - 15:53:58.476 INFO] (mywarns.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\mywarns.js'
+[27/03/2022 - 15:53:58.481 INFO] (ping.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\ping.js'
+[27/03/2022 - 15:53:58.487 INFO] (stats.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\stats.js'
+[27/03/2022 - 15:53:58.493 INFO] (warn.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\warn.js'
+[27/03/2022 - 15:53:58.496 INFO] (index.js):     Done. Started ./bot/run
+[27/03/2022 - 15:53:58.498 DEBUG] (index.js): isScamLink: 'coucou': false
+[27/03/2022 - 15:53:59.282 INFO] (run.js): Bot démarré.
+[27/03/2022 - 15:53:59.290 INFO] (main.js): Bot started
+[27/03/2022 - 15:54:00.505 INFO] (index.js): info
+[27/03/2022 - 15:54:00.507 WARN] (index.js): warn
+[27/03/2022 - 15:54:00.509 ERROR] (index.js): error
+[27/03/2022 - 15:54:00.512 LOG] (index.js): log
+[27/03/2022 - 15:54:00.514 DEBUG] (index.js): debug
+[27/03/2022 - 15:54:00.518 DEBUG] (index.js): the account found: {}
+[27/03/2022 - 15:55:34.048 INFO] (database.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\localModules\database.js'
+[27/03/2022 - 15:55:34.567 INFO] (class_serverData.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\localModules\class_serverData.js'
+[27/03/2022 - 15:55:34.570 INFO] (class_globalSettings.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\localModules\class_globalSettings.js'
+[27/03/2022 - 15:55:34.572 INFO] (index.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\index.js'
+[27/03/2022 - 15:55:34.574 INFO] (index.js): 
+[27/03/2022 - 15:55:34.574 INFO] (index.js): 
+[27/03/2022 - 15:55:34.574 INFO] (index.js): =======================================
+[27/03/2022 - 15:55:34.581 INFO] (index.js): ========== [Starting script] ==========
+[27/03/2022 - 15:55:34.583 INFO] (index.js): =======================================
+[27/03/2022 - 15:55:34.583 INFO] (index.js): 
+[27/03/2022 - 15:55:34.586 INFO] (index.js): Tentative de connection à MongoDB...
+[27/03/2022 - 15:55:35.070 DEBUG] (database.js): MongoClient singleton set.
+[27/03/2022 - 15:55:35.072 INFO] (index.js):   Mongo instance connected.
+[27/03/2022 - 15:55:35.832 INFO] (index.js): Starting all modules...
+[27/03/2022 - 15:55:35.835 INFO] (index.js):   Starting ./bot/run ...
+[27/03/2022 - 15:55:35.841 INFO] (run.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\run.js'
+[27/03/2022 - 15:55:35.854 INFO] (botFunctions.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\botLocalModules\botFunctions.js'
+[27/03/2022 - 15:55:35.874 INFO] (singleton_bot.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\botLocalModules\singleton_bot.js'
+[27/03/2022 - 15:55:35.987 INFO] (initDatas.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\events\guildCreate\initDatas.js'
+[27/03/2022 - 15:55:36.027 INFO] (directMessageCommands.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\events\message\directMessageCommands.js'
+[27/03/2022 - 15:55:36.034 INFO] (guildCommands.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\events\message\guildCommands.js'
+[27/03/2022 - 15:55:36.058 INFO] (main.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\events\ready\main.js'
+[27/03/2022 - 15:55:36.066 INFO] (help.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\help.js'
+[27/03/2022 - 15:55:36.073 INFO] (mywarns.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\mywarns.js'
+[27/03/2022 - 15:55:36.081 INFO] (ping.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\ping.js'
+[27/03/2022 - 15:55:36.087 INFO] (stats.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\stats.js'
+[27/03/2022 - 15:55:36.092 INFO] (warn.js): Starting logger for file 'c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\commands\guild\warn.js'
+[27/03/2022 - 15:55:36.097 INFO] (index.js):     Done. Started ./bot/run
+[27/03/2022 - 15:55:36.100 DEBUG] (index.js): isScamLink: 'coucou': false
+[27/03/2022 - 15:55:36.852 INFO] (run.js): Bot démarré.
+[27/03/2022 - 15:55:36.860 INFO] (main.js): Bot started
+[27/03/2022 - 15:55:38.114 INFO] (index.js): info
+[27/03/2022 - 15:55:38.116 WARN] (index.js): warn
+[27/03/2022 - 15:55:38.118 ERROR] (index.js): error
+[27/03/2022 - 15:55:38.120 LOG] (index.js): log
+[27/03/2022 - 15:55:38.122 DEBUG] (index.js): debug
+[27/03/2022 - 15:55:38.147 DEBUG] (index.js): the account found: 

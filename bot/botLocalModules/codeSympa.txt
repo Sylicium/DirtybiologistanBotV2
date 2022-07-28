@@ -1,0 +1,18 @@
+
+
+
+msg.awaitReactions((reaction, user) => user.id == message.author.id && (["✅","❌"].indexOf(reaction.emoji.name) != -1), {max: 1, time: 30*1000 })
+    .then(async collected => {
+        let react = collected.first().emoji.name
+        if (react == '✅') {
+            msg.reactions.removeAll()
+            return;
+        } else if(react == "❌") {
+            msg.reactions.removeAll()
+            return;
+        }
+    }).catch((e) => {
+        msg.reactions.removeAll().catch(error => console.error('Failed to clear reactions:', error));
+        msg.edit(`:x: Annulé car vous avez pris trop de temps.`).then(msg2 => {setTimeout(() => msg2.delete(), 20*1000)})
+        return;
+    })

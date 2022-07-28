@@ -1,0 +1,14 @@
+File created on 18/06/2022, 11:06:55
+
+[18/06/2022, 11:06:55 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: eventType is not defined
+[18/06/2022, 11:06:55 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\run.js:217:45)
+[18/06/2022, 11:06:55 ERROR] (unknown):     at Client.emit (events.js:400:28)
+[18/06/2022, 11:06:55 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\node_modules\discord.js\src\client\Client.js:208:10)
+[18/06/2022, 11:06:55 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\bot\run.js:275:9)
+[18/06/2022, 11:06:55 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\index.js:101:25)
+[18/06/2022, 11:06:55 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\index.js:30:5
+[18/06/2022, 11:06:55 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\node_modules\mongodb\lib\utils.js:510:9
+[18/06/2022, 11:06:55 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\node_modules\mongodb\lib\mongo_client.js:130:17
+[18/06/2022, 11:06:55 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\node_modules\mongodb\lib\operations\connect.js:29:9)
+[18/06/2022, 11:06:55 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\node_modules\mongodb\lib\operations\connect.js:80:9
+[18/06/2022, 11:06:55 ERROR] (unknown): 
