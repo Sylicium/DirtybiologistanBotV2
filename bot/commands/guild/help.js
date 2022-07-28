@@ -10,6 +10,7 @@ module.exports = {
     commandInformations: {
         name: "help",
         description: "Affiche la liste des commandes.",
+        canBeDisabled: false,
         permisionsNeeded: {
             bot: ["SEND_MESSAGES"],
             user: []

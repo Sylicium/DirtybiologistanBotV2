@@ -14,7 +14,7 @@ class ServerClass {
             collectionName: undefined,
             _id: undefined
         },
-            _const={
+        _const={
             _id: undefined,
             id: undefined,
         }
@@ -171,6 +171,13 @@ class ServerClass {
             total += counts[i].value; countedDays++
         }
         return (total/7) //(total/countedDays)
+    }
+
+    /**
+     * f() : 
+    */
+    editCommand(name) {
+
     }
 
 

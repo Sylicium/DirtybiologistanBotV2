@@ -10,6 +10,7 @@ module.exports = {
     commandInformations: {
         name: "stats",
         description: "Affiche toute sortes de statistiques",
+        canBeDisabled: true,
         permisionsNeeded: {
             bot: ["SEND_MESSAGES"],
             user: []

@@ -5,6 +5,8 @@ const Database = require("../../../localModules/database")
 
 module.exports.onEvent = async (bot, guild) => {
 
+    let guildDatas = Database.getGuildDatas(guild.id)
+
     function isThereWordsInto(text) {
         let l = ["général","general","discussion","discussions","géneral"]
         for(let i in l) {

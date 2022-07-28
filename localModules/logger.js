@@ -1,6 +1,6 @@
 
 /**
- * @version 2.1.2 // 24/04/2022
+ * @version 3.1.1 // 28/07/2022
  * @author Sylicium
  * @description Module global qui servira à log pour tous les fichiers au lieu de faire toujours un console.log
  *
@@ -13,7 +13,11 @@ let config = require("../config")
 
 let configuration = {
     coloration: "colored", // normal: erreur tout en rouge, warn tout en orange etc.. | colored couleurs différentes pour la ligne de log pour la date, heure etc..
-    logOnStart: false
+    logOnStart: false,
+    ReplitName: "ReferencementDBG",
+    workDirectoryFullPath: "C:\\Users\\Sylicium\\Documents\\DirtyBiologystan\\bot\\DirtyBiology v2.0 - Github\\DirtybiologistanBotV2",
+    workDirectory: "\\ReferencementDBG",
+    replitMode: false
 }
 function formatDate(timestamp, format) {
     /*
@@ -137,11 +141,21 @@ class Logger {
             let _a_fileName = temp[temp.length-1].split(".")
             _a_fileName.pop()
             let fileName = _a_fileName.join(".")
+
+            let filePath = fullFilePath
+            // let fileName = fileName
+            let fullFileName = temp[temp.length-1]
+
+            if(configuration.replitMode) {
+                filePath = fullFilePath.replace(`/home/runner/${configuration.ReplitName}/`,""),
+                fileName = fileName.replace(`/home/runner/${configuration.ReplitName}/`,""),
+                fullFileName = fullFileName.replace(`/home/runner/${configuration.ReplitName}/`,"")
+            }
             
             return {
                 filePath: fullFilePath,
                 fileName: fileName,
-                fullFileName: temp[temp.length-1]
+                fullFileName: fullFileName
             }
         }
         let fileInfos = _getCallerFile()
@@ -149,12 +163,14 @@ class Logger {
         /*if(!logName) {
             
         }*/
+        //console.log("fileInfos:",fileInfos)
+        fileInfos.fileName = fileInfos.fileName
         let logFileName = fileInfos.fileName
 
         this.writeLog = this.writeLog
         this.callerFile = fileInfos
         this.logFile = {
-            filePath: `./logs/${fileInfos.fileName}.log`,
+            filePath: `${configuration.replitMode ? `/home/runner/${configuration.ReplitName}/logs/` : "./logs/"}${fileInfos.fileName}.log`,
             fileName: logFileName,
             logName: (!!logName ? logName : null)
         }
@@ -191,8 +207,11 @@ class Logger {
 
             let callerLine;
             try {
-                let s = (new Error()).stack.split("\n")[3].split("\\")
-                callerLine = "\\" + s[s.length-2] + "\\" + s[s.length-1]
+                let splitOnChar = "\\"
+                let s = ((new Error()).stack)
+                if(s.split("/").length > s.split("\\").length) splitOnChar = "/"
+                let s_2 = s.split("\n")[3].split(splitOnChar)
+                callerLine = splitOnChar + s_2[s_2.length-2] + splitOnChar + s_2[s_2.length-1]
                 if(callerLine.substr(-1) == ")") callerLine = callerLine.substr(0, callerLine.length-1)
             } catch(e) {
                 callerLine = `!${this.logFile.logName ? `n> ${this.logFile.logName}` : this.callerFile.fullFileName}`
@@ -200,7 +219,7 @@ class Logger {
             //console.log(` >>${callerLine}<<`)
 
             ////////// à remove sur la prod //////////
-            if(callerLine.startsWith("\\DirtyBiology v2.0")) callerLine = callerLine.replace("\\DirtyBiology v2.0","<root>")
+            if(callerLine.startsWith(configuration.workDirectory)) callerLine = callerLine.replace(configuration.workDirectory,"<root>")
 
 
             if(!callerLine) callerLine = `!${this.logFile.logName ? `n> ${this.logFile.logName}` : this.callerFile.fullFileName}`
@@ -270,10 +289,11 @@ class Logger {
         */
         //this.writeLog = writeLog
         
-        if(configuration.logOnStart) this._writeLogLine("info",`Starting logger for file '${this.callerFile.filePath.replace("c:\\Users\\Sylicium\\Documents\\DirtyBiologystan\\bot\\DirtyBiology v2.0\\","<root>>\\")}'`)
+        if(configuration.logOnStart) this._writeLogLine("info",`Starting logger for file '${this.callerFile.filePath.replace(configuration.workDirectoryFullPath,"<root>>\\")}'`)
 
     }
 
+    
     log = (...args) => {
         this._writeLogLine("LOG", ...args)
     }
@@ -293,9 +313,4 @@ class Logger {
 }
 
 module.exports = Logger
-
-
-
-
-
 

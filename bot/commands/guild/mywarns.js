@@ -10,6 +10,7 @@ module.exports = {
     commandInformations: {
         name: "mywarn",
         description: "Permet de voir la liste des warns que vous avez reçus.",
+        canBeDisabled: true,
         permisionsNeeded: {
             bot: [],
             user: []

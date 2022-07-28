@@ -9,6 +9,7 @@ module.exports = {
     commandInformations: {
         name: "ping",
         description: "Permet de voir la latence du bot et de l'API",
+        canBeDisabled: false,
         permisionsNeeded: {
             bot: [],
             user: []

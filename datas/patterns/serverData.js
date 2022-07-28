@@ -28,6 +28,14 @@ module.exports = (guild_object) => {
         giveaways: {},
         lol_commands: {
             enabled: false
+        },
+        settings: {
+            commands: [
+                // { name: "ping", disabled: false}
+            ],
+            plugins: [
+                // { name: "globalchat", disabled: true, options: { channel: "0123456789", }}
+            ]
         }
     }
 }

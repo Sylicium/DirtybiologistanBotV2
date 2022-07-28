@@ -9,6 +9,7 @@ module.exports = {
     commandInformations: {
         name: "warn",
         description: "Ajoute un avertissement à un utilisateur",
+        canBeDisabled: true,
         permisionsNeeded: {
             bot: ["ADMINISTRATOR"],
             user: ["MANAGE_MESSAGES"]

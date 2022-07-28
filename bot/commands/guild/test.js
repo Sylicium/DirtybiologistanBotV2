@@ -9,6 +9,7 @@ module.exports = {
     commandInformations: {
         name: "test",
         description: "Une commande pour faire des tests",
+        canBeDisabled: true,
         permisionsNeeded: {
             bot: [],
             user: []

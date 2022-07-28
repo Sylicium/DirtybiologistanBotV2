@@ -1,4 +1,11 @@
 
+/**
+ * @version 2.0.0 // 28/07/2022
+ * @author Sylicium
+ * @description Module someFunction qui réunit plein de fonction utiles
+ *
+*/
+
 
 /*
 

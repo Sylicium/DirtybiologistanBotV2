@@ -12,3 +12,15 @@ File created on 18/06/2022, 11:06:55
 [18/06/2022, 11:06:55 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\node_modules\mongodb\lib\operations\connect.js:29:9)
 [18/06/2022, 11:06:55 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0\node_modules\mongodb\lib\operations\connect.js:80:9
 [18/06/2022, 11:06:55 ERROR] (unknown): 
+[28/07/2022, 19:33:43 ERROR] (unknown): Unhandled Rejection (process.on handle) TypeError: Logger.log is not a function
+[28/07/2022, 19:33:43 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:217:20)
+[28/07/2022, 19:33:43 ERROR] (unknown):     at Client.emit (events.js:400:28)
+[28/07/2022, 19:33:43 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:208:10)
+[28/07/2022, 19:33:43 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:278:9)
+[28/07/2022, 19:33:43 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:101:25)
+[28/07/2022, 19:33:43 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:30:5
+[28/07/2022, 19:33:43 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[28/07/2022, 19:33:43 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[28/07/2022, 19:33:43 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[28/07/2022, 19:33:43 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[28/07/2022, 19:33:43 ERROR] (unknown): 

@@ -1,4 +1,12 @@
 
+/**
+ * @version 2.0.0 // 28/07/2022
+ * @author Sylicium
+ * @description Module botFunction qui réunit plein de fonction utiles pour le bot discord
+ *
+*/
+
+
 const config = require('../../config');
 const Discord = require("discord.js")
 const Logger = new (require('../../localModules/logger'))()

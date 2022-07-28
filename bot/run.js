@@ -54,7 +54,7 @@ module.exports.run = () => {
     
 
     bot.on('ready', async () => {
-        logger.info("Bot démarré.")
+        logger.info(`Bot démarré. en tant que ${bot.user.tag} (${bot.user.id})`)
         /*
         bot.user.setStatus('available')
         bot.user.setPresence({
@@ -213,6 +213,7 @@ module.exports.run = () => {
     for(let i in discordEventList) {
         let event = discordEventList[i]
         bot.on(event, (...args) => {
+            //logger.debug(`Got event ${event}`)
             if(config.bot.force_maintenance || false) { // ou maintenance du data global.
             }
             for(let loop in eventCollection[event]) {

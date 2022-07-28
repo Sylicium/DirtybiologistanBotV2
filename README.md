@@ -1,4 +1,6 @@
 
+**Before commit**
+Remove sensible informations as bot token in the config file
 
 **Bot du Dirtybiologistan**
 
@@ -6,4 +8,4 @@ Ce bot est le bot officiel du DirtyBiologistan, rassemblant plusieurs dizaines d
 
 **Développeur(s)**
 
-Sylicium.
+Sylicium - Main Programmer [html/css/js/nodejs]
