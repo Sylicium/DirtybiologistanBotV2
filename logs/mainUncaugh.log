@@ -24,3 +24,15 @@ File created on 18/06/2022, 11:06:55
 [28/07/2022, 19:33:43 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
 [28/07/2022, 19:33:43 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
 [28/07/2022, 19:33:43 ERROR] (unknown): 
+[29/07/2022, 02:48:36 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ TypeError: Cannot read property 'Guilds' of undefined
+[29/07/2022, 02:48:36 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:30:45)
+[29/07/2022, 02:48:36 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:101:25)
+[29/07/2022, 02:48:36 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:30:5
+[29/07/2022, 02:48:36 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[29/07/2022, 02:48:36 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[29/07/2022, 02:48:36 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[29/07/2022, 02:48:36 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[29/07/2022, 02:48:36 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[29/07/2022, 02:48:36 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[29/07/2022, 02:48:36 ERROR] (unknown):     at handleOperationResult (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\server.js:363:9)
+[29/07/2022, 02:48:36 ERROR] (unknown): 

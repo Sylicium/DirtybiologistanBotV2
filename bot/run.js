@@ -26,7 +26,8 @@ module.exports.run = () => {
             type: 'WATCHING'
           }
         },
-        partials: ['MESSAGE', 'CHANNEL', 'REACTION']
+        partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
+        intents: ['GUILD_MESSAGES']
     })
 
     /*
@@ -234,6 +235,14 @@ module.exports.run = () => {
         let command = require(`./commands/guild/${file}`);
         bot.commands.guildCommands.set(file, command);
     }
+
+
+    bot.on("messageCreate", message => {
+        logger.debug("got messageCreate:",message.content)
+    })
+    bot.on("message", message => {
+        logger.debug("got message:",message.content)
+    })
 
 
 
