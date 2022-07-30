@@ -243,9 +243,6 @@ module.exports.run = () => {
     bot.on("message", message => {
         logger.debug("got message:",message.content)
     })
-
-
-
     
 
     /*
