@@ -4068,3 +4068,8 @@ Les gens s’en balancent de la politique du pays
 [03/08/2022 - 01:45:14.579 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
 [03/08/2022 - 01:45:14.629 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
 [03/08/2022 - 01:45:15.995 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:48:06.435 DEBUG] (\bot\run.js:295:16): got messageCreate:,
+[03/08/2022 - 01:48:08.174 DEBUG] (\bot\run.js:295:16): got messageCreate:,
+[03/08/2022 - 01:48:37.499 DEBUG] (\bot\run.js:295:16): got messageCreate:,
+[03/08/2022 - 01:49:16.556 DEBUG] (\bot\run.js:295:16): got messageCreate:,
+[03/08/2022 - 01:52:03.562 DEBUG] (\bot\run.js:295:16): got messageCreate:,@everyone y'as ce channel si vous voulez voir quand je bosse sur la V2 😄
