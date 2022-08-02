@@ -16,7 +16,45 @@ module.exports.run = () => {
 
 
     let bot = require('./botLocalModules/singleton_bot')
-    
+    bot = new Discord.Client({
+        intents: [
+            Discord.GatewayIntentBits.Guilds,
+            Discord.GatewayIntentBits.DirectMessageReactions,
+            Discord.GatewayIntentBits.DirectMessageTyping,
+            Discord.GatewayIntentBits.DirectMessages,
+            Discord.GatewayIntentBits.GuildBans,
+            Discord.GatewayIntentBits.GuildEmojisAndStickers,
+            Discord.GatewayIntentBits.GuildIntegrations,
+            Discord.GatewayIntentBits.GuildInvites,
+            Discord.GatewayIntentBits.GuildMembers,
+            Discord.GatewayIntentBits.GuildMessageReactions,
+            Discord.GatewayIntentBits.GuildMessageTyping,
+            Discord.GatewayIntentBits.GuildMessages,
+            Discord.GatewayIntentBits.GuildPresences,
+            Discord.GatewayIntentBits.GuildScheduledEvents,
+            Discord.GatewayIntentBits.GuildVoiceStates,
+            Discord.GatewayIntentBits.GuildWebhooks,
+            Discord.GatewayIntentBits.Guilds,
+            Discord.GatewayIntentBits.MessageContent
+        ],
+        partials: [
+            Discord.Partials.Channel,
+            Discord.Partials.GuildMember,
+            Discord.Partials.GuildScheduledEvent,
+            Discord.Partials.Message,
+            Discord.Partials.Reaction,
+            Discord.Partials.ThreadMember,
+            Discord.Partials.User
+        ],
+        presence: {
+          status: 'idle',
+          activity: {
+            name: `le démarrage...`,
+            type: 'WATCHING'
+          }
+        }
+    })
+    /* For discord v12
     bot = new Discord.Client({
         //fetchAllMembers: true, // Remove this if the bot is in large guilds.
         presence: {
@@ -28,7 +66,7 @@ module.exports.run = () => {
         },
         partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
         intents: ['GUILD_MESSAGES']
-    })
+    })*/
 
     /*
     let bot = require('./botLocalModules/singleton_bot').createInstance({
@@ -47,11 +85,13 @@ module.exports.run = () => {
     Database._setBotInstance_(bot)
     botf._setBotInstance(bot)
 
+    /* A remettre 
     fs.readdirSync("./bot/botLocalModules").forEach(botModule => {
         if(botModule.endsWith("_AutoLoad.js")) {
             require(`./botLocalModules/${botModule}`)
         }
     })
+    */
     
 
     bot.on('ready', async () => {
@@ -119,8 +159,14 @@ module.exports.run = () => {
                 fileName.join(".")
                 //require(`./events/${eventType}/${fileName}`).start(bot, eventType)
                 let the_require = require(`./events/${eventType}/${fileName}`)
-                try { the_require.start() } catch(e) {
-                    logger.warn(`${e} <- /bot/events/${eventType}/${file}`)
+                try {
+                    the_require.start(bot)
+                } catch(e) {
+                    if(`${e}`.indexOf(".start is not a function") != -1) {
+                        logger.warn(`[ ] ${e} <- /bot/events/${eventType}/${file}`)
+                    } else {
+                        logger.warn(`[w] ${e} <- /bot/events/${eventType}/${file}`,e)
+                    }
                 }
                 eventCollection[eventType].push(the_require);
             }
@@ -233,12 +279,16 @@ module.exports.run = () => {
 
     bot.commands = {}
     bot.commands.guildCommands = new Discord.Collection();
-    const commandFiles = fs.readdirSync('./bot/commands/guild/').filter(file => file.endsWith('.js'));
-    for(const file of commandFiles) {
+    let commandFiles = fs.readdirSync('./bot/commands/guild/').filter(file => file.endsWith('.js'));
+    for(let file of commandFiles) {
         //logger.log("file for command: "+file)
         let command = require(`./commands/guild/${file}`);
         bot.commands.guildCommands.set(file, command);
     }
+    
+    /* Dans /events/ready/slashCommands.js
+    bot.commands.slashCommands = new Discord.Collection();
+    */
 
 
     bot.on("messageCreate", message => {

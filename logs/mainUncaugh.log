@@ -1440,3 +1440,121 @@ File created on 18/06/2022, 11:06:55
 [03/08/2022, 00:28:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
 [03/08/2022, 00:28:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
 [03/08/2022, 00:28:56 ERROR] (unknown): 
+[03/08/2022, 00:34:01 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ TypeError: Cannot read properties of undefined (reading 'get')
+[03/08/2022, 00:34:01 ERROR] (unknown):     at Object.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\botLocalModules\DBGExtendedGuild_AutoLoad.js:4:32)
+[03/08/2022, 00:34:01 ERROR] (unknown):     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[03/08/2022, 00:34:01 ERROR] (unknown):     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[03/08/2022, 00:34:01 ERROR] (unknown):     at Module.load (node:internal/modules/cjs/loader:981:32)
+[03/08/2022, 00:34:01 ERROR] (unknown):     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+[03/08/2022, 00:34:01 ERROR] (unknown):     at Module.require (node:internal/modules/cjs/loader:1005:19)
+[03/08/2022, 00:34:01 ERROR] (unknown):     at require (node:internal/modules/cjs/helpers:102:18)
+[03/08/2022, 00:34:01 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:90:13
+[03/08/2022, 00:34:01 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[03/08/2022, 00:34:01 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:88:45)
+[03/08/2022, 00:34:01 ERROR] (unknown): 
+[03/08/2022, 00:35:02 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ TypeError: Cannot read properties of undefined (reading 'on')
+[03/08/2022, 00:35:02 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:97:9)
+[03/08/2022, 00:35:02 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[03/08/2022, 00:35:02 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[03/08/2022, 00:35:02 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[03/08/2022, 00:35:02 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[03/08/2022, 00:35:02 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[03/08/2022, 00:35:02 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[03/08/2022, 00:35:02 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[03/08/2022, 00:35:02 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[03/08/2022, 00:35:02 ERROR] (unknown):     at handleOperationResult (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\server.js:363:9)
+[03/08/2022, 00:35:02 ERROR] (unknown): 
+[03/08/2022, 00:38:43 ERROR] (unknown): Unhandled Rejection (process.on handle) TypeError: Cannot read properties of undefined (reading 'bot')
+[03/08/2022, 00:38:43 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:73:27)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:265:46)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at Client.emit (node:events:527:28)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at InteractionCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\InteractionCreate.js:81:12)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at Object.module.exports [as INTERACTION_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:352:31)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:481:22)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:321:10)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:199:18)
+[03/08/2022, 00:38:43 ERROR] (unknown):     at WebSocket.emit (node:events:527:28)
+[03/08/2022, 00:38:43 ERROR] (unknown): 
+[03/08/2022, 00:39:45 ERROR] (unknown): Unhandled Rejection (process.on handle) TypeError: Cannot read properties of null (reading 'name')
+[03/08/2022, 00:39:45 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:83:79
+[03/08/2022, 00:39:45 ERROR] (unknown):     at Array.filter (<anonymous>)
+[03/08/2022, 00:39:45 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:82:44)
+[03/08/2022, 00:39:45 ERROR] (unknown):     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[03/08/2022, 00:39:45 ERROR] (unknown): 
+[03/08/2022, 00:40:27 ERROR] (unknown): Unhandled Rejection (process.on handle) TypeError: Cannot read properties of null (reading 'name')
+[03/08/2022, 00:40:27 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:83:79
+[03/08/2022, 00:40:27 ERROR] (unknown):     at Array.filter (<anonymous>)
+[03/08/2022, 00:40:27 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:82:44)
+[03/08/2022, 00:40:27 ERROR] (unknown):     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[03/08/2022, 00:40:27 ERROR] (unknown): 
+[03/08/2022, 00:41:46 ERROR] (unknown): Unhandled Rejection (process.on handle) TypeError: Cannot read properties of null (reading 'name')
+[03/08/2022, 00:41:46 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:83:79
+[03/08/2022, 00:41:46 ERROR] (unknown):     at Array.filter (<anonymous>)
+[03/08/2022, 00:41:46 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:82:44)
+[03/08/2022, 00:41:46 ERROR] (unknown):     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[03/08/2022, 00:41:46 ERROR] (unknown): 
+[03/08/2022, 00:58:11 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:39
+[03/08/2022, 00:58:11 ERROR] (unknown):                     let guild = await bot.guilds.cache.get(config.bot.setApplicationCommandsInLocal_guilds[i])
+[03/08/2022, 00:58:11 ERROR] (unknown):                                 ^^^^^
+[03/08/2022, 00:58:11 ERROR] (unknown): 
+[03/08/2022, 00:58:11 ERROR] (unknown): SyntaxError: await is only valid in async functions and the top level bodies of modules
+[03/08/2022, 00:58:11 ERROR] (unknown):     at Object.compileFunction (node:vm:352:18)
+[03/08/2022, 00:58:11 ERROR] (unknown):     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+[03/08/2022, 00:58:11 ERROR] (unknown):     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+[03/08/2022, 00:58:11 ERROR] (unknown):     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[03/08/2022, 00:58:11 ERROR] (unknown):     at Module.load (node:internal/modules/cjs/loader:981:32)
+[03/08/2022, 00:58:11 ERROR] (unknown):     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+[03/08/2022, 00:58:11 ERROR] (unknown):     at Module.require (node:internal/modules/cjs/loader:1005:19)
+[03/08/2022, 00:58:11 ERROR] (unknown):     at require (node:internal/modules/cjs/helpers:102:18)
+[03/08/2022, 00:58:11 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:161:35
+[03/08/2022, 00:58:11 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[03/08/2022, 00:58:11 ERROR] (unknown): 
+[03/08/2022, 01:01:54 ERROR] (unknown): Uncaught Exception (process.on handle) ReferenceError: eventType is not defined
+[03/08/2022, 01:01:54 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:275:68)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at Client.emit (node:events:539:35)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at WebSocketManager.triggerClientReady (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:385:17)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at WebSocketManager.checkShardsReady (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:368:10)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at WebSocketShard.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:194:14)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at WebSocketShard.emit (node:events:527:28)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at WebSocketShard.checkReady (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:512:12)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:484:16)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:321:10)
+[03/08/2022, 01:01:54 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:199:18)
+[03/08/2022, 01:01:54 ERROR] (unknown): 
+[03/08/2022, 01:30:03 ERROR] (unknown): Uncaught Exception (process.on handle) ReferenceError: Discord is not defined
+[03/08/2022, 01:30:03 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\ready\slashComandsReady.js:20:38)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:271:46)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at Client.emit (node:events:539:35)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at WebSocketManager.triggerClientReady (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:385:17)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at WebSocketManager.checkShardsReady (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:368:10)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at WebSocketShard.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:194:14)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at WebSocketShard.emit (node:events:527:28)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at WebSocketShard.checkReady (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:512:12)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:484:16)
+[03/08/2022, 01:30:03 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:321:10)
+[03/08/2022, 01:30:03 ERROR] (unknown): 
+[03/08/2022, 01:30:30 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ Error: Cannot find module 'Discord'
+[03/08/2022, 01:30:30 ERROR] (unknown): Require stack:
+[03/08/2022, 01:30:30 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\ready\slashComandsReady.js
+[03/08/2022, 01:30:30 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+[03/08/2022, 01:30:30 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Module.require (node:internal/modules/cjs/loader:1005:19)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at require (node:internal/modules/cjs/helpers:102:18)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Object.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\ready\slashComandsReady.js:4:17)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Module.load (node:internal/modules/cjs/loader:981:32)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+[03/08/2022, 01:30:30 ERROR] (unknown):     at Module.require (node:internal/modules/cjs/loader:1005:19)
+[03/08/2022, 01:30:30 ERROR] (unknown): 
+[03/08/2022, 01:33:16 ERROR] (unknown): Unhandled Rejection (process.on handle) TypeError: Cannot read properties of undefined (reading 'execute')
+[03/08/2022, 01:33:16 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:61:25)
+[03/08/2022, 01:33:16 ERROR] (unknown):     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[03/08/2022, 01:33:16 ERROR] (unknown): 
+[03/08/2022, 01:34:06 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: a is not defined
+[03/08/2022, 01:34:06 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:61:49)
+[03/08/2022, 01:34:06 ERROR] (unknown):     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[03/08/2022, 01:34:06 ERROR] (unknown): 

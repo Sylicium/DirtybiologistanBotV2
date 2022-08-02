@@ -2393,3 +2393,481 @@ File created on 27/03/2022 at 15:53:57.027
 [03/08/2022 - 00:28:55.279 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
 [03/08/2022 - 00:28:56.873 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
 [03/08/2022 - 00:28:56.903 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:33:57.592 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:33:57.598 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:33:57.599 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:33:57.715 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:33:58.931 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:34:01.132 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:34:01.142 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:34:58.960 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:34:58.967 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:34:59.009 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:34:59.037 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:34:59.970 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:35:02.156 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:35:02.171 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:38:15.258 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:38:15.294 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:38:15.296 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:38:15.298 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:38:16.248 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:38:18.252 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:38:18.258 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:38:18.604 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:38:20.613 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:38:20.615 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:38:20.618 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:38:20.619 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:38:20.620 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:39:37.835 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:39:37.918 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:39:37.920 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:39:37.922 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:39:39.138 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:39:41.788 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:39:41.790 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:39:42.220 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:39:44.225 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:39:44.229 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:39:44.230 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:39:44.231 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:39:44.232 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:40:12.603 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:40:12.638 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:40:12.639 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:40:12.641 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:40:13.485 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:40:14.718 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:40:14.721 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:40:14.978 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:40:16.981 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:40:16.982 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:40:16.983 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:40:16.984 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:40:16.985 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:41:31.512 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:41:31.517 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:41:31.518 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:41:31.520 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:41:32.684 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:41:34.068 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:41:34.070 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:41:34.367 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:41:40.479 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:41:40.490 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:41:40.507 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:41:40.527 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:41:41.260 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:41:43.406 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:41:43.415 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:41:44.165 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:41:46.171 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:41:46.172 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:41:46.173 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:41:46.175 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:41:46.178 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:43:39.298 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:43:39.308 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:43:39.312 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:43:39.315 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:43:40.765 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:43:43.180 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:43:43.195 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:43:43.755 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:43:45.828 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:43:45.829 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:43:45.830 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:43:45.832 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:43:45.833 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:45:43.757 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:45:43.789 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:45:43.792 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:45:43.825 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:45:44.788 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:45:46.289 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:45:46.293 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:45:46.867 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:45:48.870 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:45:48.872 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:45:48.874 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:45:48.875 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:45:48.875 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:47:29.279 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:47:29.287 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:47:29.290 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:47:29.294 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:47:30.447 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:47:32.300 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:47:32.310 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:47:32.742 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:47:34.779 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:47:34.781 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:47:34.782 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:47:34.784 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:47:34.786 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:47:50.902 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:47:50.908 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:47:50.909 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:47:50.913 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:47:52.015 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:47:54.611 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:47:54.620 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:47:54.959 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:47:56.966 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:47:56.968 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:47:56.969 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:47:56.972 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:47:56.973 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:50:33.874 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:50:33.923 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:50:33.925 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:50:33.927 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:50:34.881 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:50:37.463 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:50:37.464 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:50:37.790 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:50:39.794 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:50:39.796 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:50:39.802 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:50:39.803 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:50:39.805 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:52:51.775 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:52:51.795 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:52:51.798 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:52:51.800 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:52:52.686 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:52:54.394 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:52:54.395 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:52:54.945 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:52:56.997 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:52:56.998 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:52:56.999 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:52:57.000 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:52:57.001 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:55:39.631 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:55:39.687 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:55:39.690 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:55:39.691 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:55:40.604 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:55:42.378 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:55:42.381 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:55:42.769 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:55:44.775 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:55:44.777 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:55:44.778 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:55:44.781 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:55:44.782 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:56:00.157 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:56:00.163 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:56:00.164 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:56:00.166 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:56:00.892 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:56:02.061 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:56:02.068 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:56:02.347 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:56:04.349 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:56:04.352 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:56:04.353 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:56:04.355 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:56:04.356 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:56:38.741 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:56:38.749 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:56:38.751 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:56:38.752 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:56:39.895 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:56:41.755 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:56:41.759 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:56:42.131 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:56:44.152 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:56:44.153 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:56:44.154 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:56:44.155 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:56:44.158 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:57:19.549 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:57:19.559 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:57:19.568 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:57:19.571 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:57:20.469 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:57:22.626 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:57:22.630 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 00:57:22.937 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 00:57:24.969 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 00:57:24.971 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 00:57:24.972 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 00:57:24.973 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 00:57:24.975 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 00:58:08.791 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 00:58:08.799 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 00:58:08.800 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 00:58:08.802 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 00:58:09.673 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 00:58:11.269 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 00:58:11.270 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:01:49.635 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:01:49.640 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:01:49.643 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:01:49.645 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:01:50.675 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:01:52.231 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:01:52.236 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:01:52.879 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:01:54.881 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:01:54.882 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:01:54.883 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:01:54.884 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:01:54.886 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:06:57.323 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:06:57.329 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:06:57.330 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:06:57.332 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:06:58.410 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:07:00.845 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:07:00.847 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:07:01.259 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:07:03.264 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:07:03.266 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:07:03.267 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:07:03.268 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:07:03.269 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:09:44.602 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:09:44.615 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:09:44.617 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:09:44.642 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:09:45.793 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:09:48.142 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:09:48.156 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:09:48.862 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:09:50.942 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:09:50.943 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:09:50.944 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:09:50.945 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:09:50.946 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:10:33.580 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:10:33.658 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:10:33.759 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:10:33.864 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:10:35.178 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:10:37.396 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:10:37.402 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:10:38.050 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:10:40.059 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:10:40.060 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:10:40.061 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:10:40.062 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:10:40.065 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:11:46.698 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:11:46.884 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:11:46.974 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:11:46.976 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:11:48.044 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:11:50.227 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:11:50.267 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:11:51.107 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:11:53.169 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:11:53.171 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:11:53.172 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:11:53.174 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:11:53.175 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:13:28.451 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:13:28.457 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:13:28.479 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:13:28.481 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:13:29.427 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:13:30.931 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:13:30.960 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:13:31.332 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:13:33.379 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:13:33.380 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:13:33.381 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:13:33.382 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:13:33.382 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:24:55.816 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:24:55.824 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:24:55.826 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:24:55.828 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:24:57.113 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:24:58.855 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:24:58.857 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:24:59.230 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:25:01.234 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:25:01.235 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:25:01.236 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:25:01.238 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:25:01.239 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:27:23.690 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:27:23.728 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:27:23.758 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:27:23.899 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:27:24.934 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:27:26.367 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:27:26.384 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:27:26.684 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:27:28.693 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:27:28.695 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:27:28.696 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:27:28.697 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:27:28.698 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:28:55.081 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:28:55.090 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:28:55.107 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:28:55.116 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:28:56.100 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:28:59.061 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:28:59.063 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:28:59.519 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:29:01.526 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:29:01.530 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:29:01.531 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:29:01.532 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:29:01.533 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:29:58.376 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:29:58.459 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:29:58.460 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:29:58.462 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:29:59.260 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:30:01.603 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:30:01.604 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:30:02.035 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:30:04.037 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:30:04.039 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:30:04.040 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:30:04.041 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:30:04.043 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:30:27.846 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:30:27.853 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:30:27.893 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:30:27.960 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:30:28.925 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:30:30.592 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:30:30.628 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:31:02.343 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:31:02.349 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:31:02.350 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:31:02.352 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:31:03.198 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:31:04.916 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:31:04.917 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:31:05.203 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:31:07.205 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:31:07.206 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:31:07.207 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:31:07.211 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:31:07.212 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:31:32.653 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:31:32.695 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:31:32.751 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:31:32.754 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:31:33.838 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:31:35.620 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:31:35.621 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:31:35.870 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:31:37.879 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:31:37.880 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:31:37.881 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:31:37.882 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:31:37.883 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:31:58.300 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:31:58.306 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:31:58.307 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:31:58.309 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:31:59.689 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:32:01.550 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:32:01.552 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:32:01.839 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:32:03.847 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:32:03.850 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:32:03.851 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:32:03.852 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:32:03.852 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:33:53.133 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:33:53.142 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:33:53.144 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:33:53.147 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:33:54.336 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:33:55.760 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:33:55.765 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:33:56.055 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:33:58.062 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:33:58.064 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:33:58.065 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:33:58.066 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:33:58.067 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:34:44.445 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:34:44.567 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:34:44.569 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:34:44.570 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:34:45.378 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:34:47.025 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:34:47.027 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:34:47.321 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:34:49.336 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:34:49.338 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:34:49.339 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:34:49.340 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:34:49.341 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:38:34.619 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:38:34.626 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:38:34.629 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:38:34.644 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:38:35.656 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:38:37.226 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:38:37.227 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:38:37.706 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:38:39.717 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:38:39.718 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:38:39.719 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:38:39.721 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:38:39.722 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:39:36.717 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:39:36.730 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:39:36.734 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:39:36.736 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:39:37.686 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:39:39.563 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:39:39.565 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:39:39.905 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:39:41.907 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:39:41.909 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:39:41.910 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:39:41.910 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:39:41.911 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:39:55.273 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:39:55.281 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:39:55.284 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:39:55.291 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:39:56.176 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:39:57.597 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:39:57.599 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:39:57.794 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:39:59.798 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:39:59.800 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:39:59.802 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:39:59.803 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:39:59.805 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:42:32.457 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:42:32.544 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:42:32.579 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:42:32.581 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:42:33.522 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:42:35.525 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:42:35.534 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:42:36.076 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:42:38.078 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:42:38.080 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:42:38.081 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:42:38.082 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:42:38.083 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug
+[03/08/2022 - 01:45:11.127 INFO] (\DirtybiologistanBotV2\index.js:22:8): =======================================
+[03/08/2022 - 01:45:11.217 INFO] (\DirtybiologistanBotV2\index.js:23:8): ========== [Starting script] ==========
+[03/08/2022 - 01:45:11.345 INFO] (\DirtybiologistanBotV2\index.js:24:8): =======================================
+[03/08/2022 - 01:45:11.347 INFO] (\DirtybiologistanBotV2\index.js:28:8): Tentative de connection à MongoDB...
+[03/08/2022 - 01:45:12.363 INFO] (\DirtybiologistanBotV2\index.js:33:12):   Mongo instance connected.
+[03/08/2022 - 01:45:14.131 INFO] (\DirtybiologistanBotV2\index.js:93:8): Starting all modules...
+[03/08/2022 - 01:45:14.133 INFO] (\DirtybiologistanBotV2\index.js:101:12):   Starting ./bot/run ...
+[03/08/2022 - 01:45:14.674 INFO] (\DirtybiologistanBotV2\index.js:111:12):     Done. Started ./bot/run
+[03/08/2022 - 01:45:16.680 INFO] (\DirtybiologistanBotV2\index.js:119:12): info
+[03/08/2022 - 01:45:16.683 WARN] (\DirtybiologistanBotV2\index.js:120:12): warn
+[03/08/2022 - 01:45:16.684 ERROR] (\DirtybiologistanBotV2\index.js:121:12): error
+[03/08/2022 - 01:45:16.685 LOG] (\DirtybiologistanBotV2\index.js:122:12): log
+[03/08/2022 - 01:45:16.686 DEBUG] (\DirtybiologistanBotV2\index.js:123:12): debug

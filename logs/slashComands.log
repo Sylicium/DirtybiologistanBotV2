@@ -1,0 +1,11 @@
+File created on 03/08/2022 at 01:24:59.161
+
+[03/08/2022 - 01:25:00.270 INFO] (\ready\slashComands.js:9:12): Chargement des slash commandes
+[03/08/2022 - 01:25:00.272 DEBUG] (\ready\slashComands.js:71:16): ReferenceError: fs is not defined
+[03/08/2022 - 01:25:00.274 INFO] (\ready\slashComands.js:75:12): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:27:27.936 INFO] (\ready\slashComands.js:8:12): Chargement des slash commandes
+[03/08/2022 - 01:27:27.940 DEBUG] (\ready\slashComands.js:70:16): ReferenceError: SlashCommandsCollection is not defined
+[03/08/2022 - 01:27:27.943 INFO] (\ready\slashComands.js:74:12): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:29:00.639 INFO] (\ready\slashComands.js:8:12): Chargement des slash commandes
+[03/08/2022 - 01:29:00.643 DEBUG] (\ready\slashComands.js:70:16): TypeError: Cannot read properties of undefined (reading 'set')
+[03/08/2022 - 01:29:00.646 INFO] (\ready\slashComands.js:74:12): ✅ Chargement des slash commandes terminé

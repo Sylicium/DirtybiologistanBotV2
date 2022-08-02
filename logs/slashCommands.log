@@ -74,3 +74,100 @@ Require stack:
 [03/08/2022 - 00:19:35.661 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
 [03/08/2022 - 00:19:35.663 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
 [03/08/2022 - 00:19:35.665 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:38:18.492 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:38:18.494 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:38:18.498 DEBUG] (\interactionCreate\slashCommands.js:34:16): ✅ log2: file:,ping.js
+[03/08/2022 - 00:38:18.499 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:38:18.503 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:38:18.505 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:38:18.544 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:39:42.061 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:39:42.064 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:39:42.072 DEBUG] (\interactionCreate\slashCommands.js:34:16): ✅ log2: file:,ping.js
+[03/08/2022 - 00:39:42.076 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:39:42.134 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:39:42.144 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:39:42.146 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:39:45.501 DEBUG] (\interactionCreate\slashCommands.js:77:12): Got interaction: 1004156581564395601
+[03/08/2022 - 00:40:14.881 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:40:14.891 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:40:14.901 DEBUG] (\interactionCreate\slashCommands.js:34:16): ✅ log2: file:,ping.js
+[03/08/2022 - 00:40:14.903 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:40:14.919 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:40:14.923 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:40:14.928 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:40:27.159 DEBUG] (\interactionCreate\slashCommands.js:77:12): Got interaction: 1004156756018085979
+[03/08/2022 - 00:40:27.160 DEBUG] (\interactionCreate\slashCommands.js:81:12): SlashCommandsCollection,[object Object]
+[03/08/2022 - 00:41:34.233 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:41:34.239 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:41:34.301 DEBUG] (\interactionCreate\slashCommands.js:34:16): ✅ log2: file:,ping.js
+[03/08/2022 - 00:41:34.313 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:41:34.317 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:41:34.322 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:41:34.324 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:41:43.980 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:41:44.038 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:41:44.048 DEBUG] (\interactionCreate\slashCommands.js:34:16): ✅ log2: file:,ping.js
+[03/08/2022 - 00:41:44.056 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:41:44.064 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:41:44.078 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:41:44.116 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:41:46.321 DEBUG] (\interactionCreate\slashCommands.js:77:12): Got interaction: 1004157087850451085
+[03/08/2022 - 00:41:46.323 DEBUG] (\interactionCreate\slashCommands.js:81:12):  interaction.command,
+[03/08/2022 - 00:43:43.465 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:43:43.516 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:43:43.522 DEBUG] (\interactionCreate\slashCommands.js:34:16): ✅ log2: file:,ping.js
+[03/08/2022 - 00:43:43.524 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:43:43.566 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:43:43.568 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:43:43.599 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:43:48.785 DEBUG] (\interactionCreate\slashCommands.js:77:12): Got interaction: 1004157601799491696
+[03/08/2022 - 00:43:53.907 DEBUG] (\interactionCreate\slashCommands.js:77:12): Got interaction: 1004157623395942440
+[03/08/2022 - 00:45:46.559 DEBUG] (\interactionCreate\slashCommands.js:35:20): ✅ 1
+[03/08/2022 - 00:45:46.577 DEBUG] (\interactionCreate\slashCommands.js:37:20): ✅ 1.5
+[03/08/2022 - 00:45:46.590 DEBUG] (\interactionCreate\slashCommands.js:39:24): ✅ 2
+[03/08/2022 - 00:45:46.647 DEBUG] (\interactionCreate\slashCommands.js:41:28): ✅ 3
+[03/08/2022 - 00:45:46.665 DEBUG] (\interactionCreate\slashCommands.js:62:16): ReferenceError: guild is not defined
+[03/08/2022 - 00:47:32.600 DEBUG] (\interactionCreate\slashCommands.js:35:20): ✅ 1
+[03/08/2022 - 00:47:32.608 DEBUG] (\interactionCreate\slashCommands.js:37:20): ✅ 1.5
+[03/08/2022 - 00:47:32.610 DEBUG] (\interactionCreate\slashCommands.js:39:24): ✅ 2
+[03/08/2022 - 00:47:32.623 DEBUG] (\interactionCreate\slashCommands.js:41:28): ✅ 3
+[03/08/2022 - 00:47:32.644 DEBUG] (\interactionCreate\slashCommands.js:66:16): ReferenceError: e is not defined
+[03/08/2022 - 00:47:54.863 DEBUG] (\interactionCreate\slashCommands.js:35:20): ✅ 1
+[03/08/2022 - 00:47:54.865 DEBUG] (\interactionCreate\slashCommands.js:37:20): ✅ 1.5
+[03/08/2022 - 00:47:54.868 DEBUG] (\interactionCreate\slashCommands.js:39:24): ✅ 2
+[03/08/2022 - 00:47:54.871 DEBUG] (\interactionCreate\slashCommands.js:41:28): ✅ 3
+[03/08/2022 - 00:47:54.878 INFO] (\interactionCreate\slashCommands.js:51:32): ❌❌ Failed to reload guild commands for UNKNOW guild,ReferenceError: bot is not defined
+[03/08/2022 - 00:50:37.646 DEBUG] (\interactionCreate\slashCommands.js:35:20): ✅ 1
+[03/08/2022 - 00:50:37.648 DEBUG] (\interactionCreate\slashCommands.js:37:20): ✅ 1.5
+[03/08/2022 - 00:50:37.651 DEBUG] (\interactionCreate\slashCommands.js:39:24): ✅ 2
+[03/08/2022 - 00:50:37.653 DEBUG] (\interactionCreate\slashCommands.js:41:28): ✅ 3
+[03/08/2022 - 00:50:37.655 INFO] (\interactionCreate\slashCommands.js:51:32): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'name')
+[03/08/2022 - 00:51:07.441 DEBUG] (\interactionCreate\slashCommands.js:79:12): Got interaction: 1004159441815478282
+[03/08/2022 - 00:51:11.135 DEBUG] (\interactionCreate\slashCommands.js:79:12): Got interaction: 1004159457045004359
+[03/08/2022 - 00:52:54.705 WARN] (\interactionCreate\slashCommands.js:47:32): ❌❌ Failed to reload guild commands for UNKNOW guild
+[03/08/2022 - 00:53:00.958 DEBUG] (\interactionCreate\slashCommands.js:74:12): Got interaction: 1004159917596364922
+[03/08/2022 - 00:53:05.310 DEBUG] (\interactionCreate\slashCommands.js:74:12): Got interaction: 1004159935820599367
+[03/08/2022 - 00:55:42.690 WARN] (\interactionCreate\slashCommands.js:46:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 00:56:02.303 WARN] (\interactionCreate\slashCommands.js:46:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 00:56:42.007 DEBUG] (\interactionCreate\slashCommands.js:38:28): config.bot.setApplicationCommandsInLocal_guilds,909168225936363601
+[03/08/2022 - 00:56:42.041 WARN] (\interactionCreate\slashCommands.js:47:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 00:57:22.852 DEBUG] (\interactionCreate\slashCommands.js:38:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 00:57:22.860 WARN] (\interactionCreate\slashCommands.js:47:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 01:01:52.838 DEBUG] (\interactionCreate\slashCommands.js:38:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:01:52.839 WARN] (\interactionCreate\slashCommands.js:47:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 01:07:01.069 DEBUG] (\interactionCreate\slashCommands.js:38:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:07:01.073 WARN] (\interactionCreate\slashCommands.js:47:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 01:09:48.613 DEBUG] (\interactionCreate\slashCommands.js:38:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:09:48.680 WARN] (\interactionCreate\slashCommands.js:47:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 01:10:37.781 DEBUG] (\interactionCreate\slashCommands.js:38:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:10:37.817 WARN] (\interactionCreate\slashCommands.js:47:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 01:11:50.662 DEBUG] (\interactionCreate\slashCommands.js:38:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:11:50.677 WARN] (\interactionCreate\slashCommands.js:47:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 01:13:31.207 DEBUG] (\interactionCreate\slashCommands.js:38:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:13:31.247 WARN] (\interactionCreate\slashCommands.js:47:36): ❌❌ Failed to reload guild commands for UNKNOW guild,TypeError: Cannot read properties of undefined (reading 'commands')
+[03/08/2022 - 01:33:16.222 DEBUG] (\interactionCreate\slashCommands.js:35:12): Got interaction: 1004170048350474400
+[03/08/2022 - 01:34:06.376 DEBUG] (\interactionCreate\slashCommands.js:35:12): Got interaction: 1004170258766110810
+[03/08/2022 - 01:35:10.981 DEBUG] (\interactionCreate\slashCommands.js:35:12): Got interaction: 1004170529839779840
+[03/08/2022 - 01:35:14.172 DEBUG] (\interactionCreate\slashCommands.js:35:12): Got interaction: 1004170543014097067
+[03/08/2022 - 01:35:17.372 DEBUG] (\interactionCreate\slashCommands.js:35:12): Got interaction: 1004170556121301053

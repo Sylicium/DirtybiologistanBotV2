@@ -3650,3 +3650,421 @@ Message link: <https://discord.com/channels/904736069080186981/90473606966739763
 ====================
 [03/08/2022 - 00:24:48.289 DEBUG] (\bot\run.js:244:16): got message:,-ping
 [03/08/2022 - 00:24:48.717 DEBUG] (\bot\run.js:244:16): got message:,**:ping_pong: Latency is 276ms. API Latency is 293ms. :green_circle:**
+[03/08/2022 - 00:38:18.465 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:38:18.487 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:38:18.545 WARN] (\bot\run.js:163:28): ReferenceError: guild is not defined <- /bot/events/interactionCreate/slashCommands.js
+[03/08/2022 - 00:38:18.549 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:38:18.564 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:38:18.568 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:38:19.931 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:38:23.758 DEBUG] (\bot\run.js:285:16): got messageCreate:,je fréquente pas mal les milieux militants, et même s'il y a toujours des cas, ça me semble assez rare. Mieux vaut nous désintéresser de ces cas particuliers et juste comprendre que mieux connaître la société nous permet d'être plus libre.
+[03/08/2022 - 00:38:34.443 DEBUG] (\bot\run.js:285:16): got messageCreate:,||AuthorTag: **Nian#6969** `599341268987805707` 
+Author nickname: **[Grocée] Policier Nian** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **🔇┃omicron-ba5** `904744647585329173` 
+Message link: <https://discord.com/channels/904736069080186981/904744647585329173/1004156280346267719>||
+====================
+[03/08/2022 - 00:39:00.547 DEBUG] (\bot\run.js:285:16): got messageCreate:,||AuthorTag: **Nian#6969** `599341268987805707` 
+Author nickname: **[Grocée] Policier Nian** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **🔇┃omicron-ba5** `904744647585329173` 
+Message link: <https://discord.com/channels/904736069080186981/904744647585329173/1004156389373005845>||
+====================
+[03/08/2022 - 00:39:42.032 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:39:42.052 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:39:42.148 WARN] (\bot\run.js:163:28): ReferenceError: guild is not defined <- /bot/events/interactionCreate/slashCommands.js
+[03/08/2022 - 00:39:42.151 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:39:42.173 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:39:42.182 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:39:43.329 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:40:14.850 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:40:14.873 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:40:14.930 WARN] (\bot\run.js:163:28): ReferenceError: guild is not defined <- /bot/events/interactionCreate/slashCommands.js
+[03/08/2022 - 00:40:14.934 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:40:14.949 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:40:14.955 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:40:16.107 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:40:31.671 DEBUG] (\bot\run.js:285:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004156773428637727>||
+===================
+
+AAAAAAAAAH <@599341268987805707> <@548121381896847370> C’est quoi vos tableaux du démon là ?
+[03/08/2022 - 00:40:31.673 DEBUG] (\bot\run.js:285:16): got messageCreate:,AAAAAAAAAH <@599341268987805707> <@548121381896847370> C’est quoi vos tableaux du démon là ?
+[03/08/2022 - 00:41:09.562 DEBUG] (\bot\run.js:285:16): got messageCreate:,||AuthorTag: **Nian#6969** `599341268987805707` 
+Author nickname: **[Grocée] Policier Nian** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **🔇┃omicron-ba5** `904744647585329173` 
+Message link: <https://discord.com/channels/904736069080186981/904744647585329173/1004156931461628114>||
+====================
+[03/08/2022 - 00:41:34.174 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:41:34.214 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:41:34.325 WARN] (\bot\run.js:163:28): ReferenceError: guild is not defined <- /bot/events/interactionCreate/slashCommands.js
+[03/08/2022 - 00:41:34.329 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:41:34.344 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:41:34.348 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:41:43.846 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:41:43.877 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:41:44.118 WARN] (\bot\run.js:163:28): ReferenceError: guild is not defined <- /bot/events/interactionCreate/slashCommands.js
+[03/08/2022 - 00:41:44.121 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:41:44.134 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:41:44.137 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:41:45.459 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:43:43.399 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:43:43.443 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:43:43.675 WARN] (\bot\run.js:163:28): ReferenceError: guild is not defined <- /bot/events/interactionCreate/slashCommands.js
+[03/08/2022 - 00:43:43.678 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:43:43.692 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:43:43.696 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:43:44.866 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:43:49.115 DEBUG] (\bot\run.js:285:16): got messageCreate:,:x: Commande inconnue.
+[03/08/2022 - 00:43:54.332 DEBUG] (\bot\run.js:285:16): got messageCreate:,:x: Commande inconnue.
+[03/08/2022 - 00:45:15.733 DEBUG] (\bot\run.js:285:16): got messageCreate:,||AuthorTag: **Nian#6969** `599341268987805707` 
+Author nickname: **[Grocée] Policier Nian** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **🔇┃omicron-ba5** `904744647585329173` 
+Message link: <https://discord.com/channels/904736069080186981/904744647585329173/1004157960966123631>||
+====================
+[03/08/2022 - 00:45:46.518 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:45:46.549 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:45:46.697 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:45:46.724 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:45:46.729 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:45:47.881 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:46:53.307 DEBUG] (\bot\run.js:285:16): got messageCreate:,Bah Paris c’est le meilleur système de transport en commun du monde parce she c’est le pire système routier
+[03/08/2022 - 00:47:32.548 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:47:32.566 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:47:32.657 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:47:32.679 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:47:32.687 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:47:33.877 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:47:54.828 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:47:54.850 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:47:54.896 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:47:54.918 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:47:54.925 WARN] (\bot\run.js:163:28): TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:47:55.913 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:50:20.145 DEBUG] (\bot\run.js:285:16): got messageCreate:,||AuthorTag: **Nian#6969** `599341268987805707` 
+Author nickname: **[Grocée] Policier Nian** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **🔇┃omicron-ba5** `904744647585329173` 
+Message link: <https://discord.com/channels/904736069080186981/904744647585329173/1004159240702791790>||
+====================
+[03/08/2022 - 00:50:23.774 DEBUG] (\bot\run.js:285:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004159258050441276>||
+===================
+
+Ah d’acc
+[03/08/2022 - 00:50:37.609 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:50:37.631 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:50:37.662 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:50:37.738 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:50:37.742 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:50:38.881 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:50:58.176 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004159401948614687>||
+===================
+
+XD
+[03/08/2022 - 00:51:07.753 DEBUG] (\bot\run.js:291:16): got messageCreate:,:x: Commande inconnue.
+[03/08/2022 - 00:51:11.402 DEBUG] (\bot\run.js:291:16): got messageCreate:,:x: Commande inconnue.
+[03/08/2022 - 00:51:11.539 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004159455216283718>||
+===================
+
+1h bientôt ici
+[03/08/2022 - 00:52:07.137 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004159690583851088>||
+===================
+
+Je rentre du taff
+[03/08/2022 - 00:52:15.601 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004159726872969266>||
+===================
+
+Nian
+[03/08/2022 - 00:52:19.560 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004159740500258947>||
+===================
+
+….
+[03/08/2022 - 00:52:54.644 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:52:54.689 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:52:54.720 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:52:54.883 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:52:54.908 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:52:56.033 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:53:01.294 DEBUG] (\bot\run.js:291:16): got messageCreate:,:x: Commande inconnue.
+[03/08/2022 - 00:53:05.680 DEBUG] (\bot\run.js:291:16): got messageCreate:,:x: Commande inconnue.
+[03/08/2022 - 00:53:24.743 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004160009569050664>||
+====================
+
+Ouais éclipse de soleil Tema
+[03/08/2022 - 00:53:25.572 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004160009569050664>||
+===================
+
+Ouais éclipse de soleil Tema
+[03/08/2022 - 00:53:51.759 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Nian#6969** `599341268987805707` 
+Author nickname: **[Grocée] Policier Nian** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004160128079106160>||
+====================
+[03/08/2022 - 00:54:01.230 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004160169103601784>||
+===================
+
+Gné, t’es fou
+[03/08/2022 - 00:54:16.373 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **StartKingz#7441** `607291511087955972` 
+Author nickname: **[271:232] StartKingz** 
+Guild: **Kaedemi dibial | Académie dibiste** `905464149147017276` 
+Channel: **💬-général-français** `905464149147017279` 
+Message link: <https://discord.com/channels/905464149147017276/905464149147017279/1004160230944424036>||
+====================
+
+J'adore 😂 Tout est en dibi, même dans le code
+[03/08/2022 - 00:55:42.650 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:55:42.672 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:55:42.696 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:55:42.710 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:55:42.713 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:55:43.916 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:56:02.253 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:56:02.294 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:56:02.307 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:56:02.324 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:56:02.328 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:56:03.332 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:56:20.896 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **👥┃géneral** `904736069667397634` 
+Message link: <https://discord.com/channels/904736069080186981/904736069667397634/1004160753810550846>||
+===================
+
+👀
+[03/08/2022 - 00:56:41.945 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:56:41.974 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:56:42.065 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:56:42.094 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:56:42.098 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:56:43.167 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:56:51.576 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **général-magistrat** `931538022573408316` 
+Message link: <https://discord.com/channels/904736069080186981/931538022573408316/1004160884249219152>||
+===================
+
+Euh
+[03/08/2022 - 00:57:05.640 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **général-magistrat** `931538022573408316` 
+Message link: <https://discord.com/channels/904736069080186981/931538022573408316/1004160943372111902>||
+===================
+
+Si y en a qu’un qui parle pour tous ….
+[03/08/2022 - 00:57:22.805 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:57:22.839 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 00:57:22.866 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 00:57:22.910 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 00:57:22.915 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 00:57:24.045 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 00:57:28.539 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **général-magistrat** `931538022573408316` 
+Message link: <https://discord.com/channels/904736069080186981/931538022573408316/1004161039451029564>||
+===================
+
+Mais en vrai good décision
+[03/08/2022 - 00:57:41.951 DEBUG] (\bot\run.js:291:16): got messageCreate:,||AuthorTag: **Kiilarii#9836** `660487234558099476` 
+Author nickname: **[169:040] Kiilarii** 
+Guild: **République Populaire du DirtyBiologistan** `904736069080186981` 
+Channel: **général-magistrat** `931538022573408316` 
+Message link: <https://discord.com/channels/904736069080186981/931538022573408316/1004161095071707176>||
+===================
+
+Les gens s’en balancent de la politique du pays
+[03/08/2022 - 00:58:11.398 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 00:58:11.414 WARN] (\bot\run.js:166:32): [ ] TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:01:52.682 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/debug/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:01:52.820 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/guildCreate/initDatas.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:01:52.842 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/directMessageCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:01:52.858 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/guildCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:01:52.862 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/ready/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:01:54.114 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:07:00.993 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/debug/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:07:01.040 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/guildCreate/initDatas.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:07:01.096 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/directMessageCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:07:01.141 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/guildCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:07:01.209 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/ready/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:07:02.311 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:07:02.319 WARN] (\bot\run.js:278:36): [ ] TypeError: eventCollection[event][loop].the_require.onReady is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:09:48.576 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/debug/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:09:48.597 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/guildCreate/initDatas.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:09:48.773 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/directMessageCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:09:48.825 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/guildCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:09:48.830 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/ready/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:09:50.486 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:09:50.495 WARN] (\bot\run.js:278:36): [ ] TypeError: eventCollection[event][loop].the_require.onReady is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:10:37.620 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/debug/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:10:37.670 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/guildCreate/initDatas.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:10:37.823 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/directMessageCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:10:37.957 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/guildCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:10:38.016 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/ready/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:10:39.050 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:10:39.057 DEBUG] (\bot\run.js:277:32): `${e}`,TypeError: eventCollection[event][loop].the_require.onReady is not a function
+[03/08/2022 - 01:10:39.059 WARN] (\bot\run.js:279:36): [ ] TypeError: eventCollection[event][loop].the_require.onReady is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:11:50.554 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/debug/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:11:50.598 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/guildCreate/initDatas.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:11:50.793 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/directMessageCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:11:50.901 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/message/guildCommands.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:11:50.944 WARN] (\bot\run.js:168:32): [w] TypeError: the_require.onReady is not a function <- /bot/events/ready/main.js,TypeError: the_require.onReady is not a function
+[03/08/2022 - 01:11:52.171 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:11:52.179 DEBUG] (\bot\run.js:277:32): `${e}`,TypeError: eventCollection[event][loop].the_require.onReady is not a function
+[03/08/2022 - 01:11:52.182 WARN] (\bot\run.js:281:36): [w] TypeError: eventCollection[event][loop].the_require.onReady is not a function <- /bot/events/ready/main.js,TypeError: eventCollection[event][loop].the_require.onReady is not a function
+[03/08/2022 - 01:13:31.169 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:13:31.187 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:13:31.262 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:13:31.284 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:13:31.291 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:13:32.407 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:24:59.038 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:24:59.091 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:24:59.110 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:24:59.128 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:24:59.132 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:24:59.191 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComands.js
+[03/08/2022 - 01:25:00.263 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:27:26.537 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:27:26.565 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:27:26.577 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:27:26.613 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:27:26.622 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:27:26.628 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComands.js
+[03/08/2022 - 01:27:27.929 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:28:59.297 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:28:59.336 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:28:59.365 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:28:59.455 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:28:59.488 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:28:59.491 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComands.js
+[03/08/2022 - 01:29:00.631 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:30:01.903 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:30:01.949 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:30:01.957 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:30:01.972 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:30:01.975 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:30:01.993 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:30:03.268 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:30:30.801 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:30:30.826 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:30:30.839 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:30:30.855 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:30:30.863 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:31:05.029 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:31:05.045 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:31:05.052 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:31:05.088 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:31:05.097 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:31:05.108 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:31:06.368 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:31:35.726 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:31:35.791 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:31:35.806 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:31:35.833 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:31:35.839 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:31:35.845 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:31:36.909 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:32:01.692 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:32:01.750 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:32:01.778 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:32:01.795 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:32:01.799 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:32:01.802 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:32:02.755 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:33:55.916 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:33:55.932 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:33:55.942 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:33:55.964 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:33:55.997 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:33:56.018 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:33:57.080 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:34:47.178 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:34:47.206 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:34:47.223 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:34:47.250 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:34:47.258 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:34:47.271 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:34:48.974 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:35:11.389 DEBUG] (\bot\run.js:295:16): got messageCreate:,pong !
+[03/08/2022 - 01:35:14.394 DEBUG] (\bot\run.js:295:16): got messageCreate:,:x: Commande inconnue. [code#01]
+[03/08/2022 - 01:35:17.599 DEBUG] (\bot\run.js:295:16): got messageCreate:,pong !
+[03/08/2022 - 01:38:37.482 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:38:37.572 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:38:37.590 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:38:37.632 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:38:37.652 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:38:37.675 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:38:38.934 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:39:39.742 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:39:39.786 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:39:39.847 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:39:39.881 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:39:39.884 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:39:39.889 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:39:40.961 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:39:57.684 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:39:57.705 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:39:57.713 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:39:57.739 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:39:57.745 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:39:57.772 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:39:58.807 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:42:35.830 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:42:35.994 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:42:36.008 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:42:36.042 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:42:36.048 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:42:36.052 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:42:37.303 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)
+[03/08/2022 - 01:45:14.370 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/debug/main.js
+[03/08/2022 - 01:45:14.398 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/guildCreate/initDatas.js
+[03/08/2022 - 01:45:14.417 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/directMessageCommands.js
+[03/08/2022 - 01:45:14.457 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/message/guildCommands.js
+[03/08/2022 - 01:45:14.579 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/main.js
+[03/08/2022 - 01:45:14.629 WARN] (\bot\run.js:166:32): [ ]TypeError: the_require.start is not a function <- /bot/events/ready/slashComandsReady.js
+[03/08/2022 - 01:45:15.995 INFO] (\bot\run.js:98:16): Bot démarré. en tant que ORU Canary#1564 (928307961934274590)

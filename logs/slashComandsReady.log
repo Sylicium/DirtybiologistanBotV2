@@ -1,0 +1,42 @@
+File created on 03/08/2022 at 01:30:01.979
+
+[03/08/2022 - 01:30:03.277 INFO] (\ready\slashComandsReady.js:8:12): Chargement des slash commandes
+[03/08/2022 - 01:31:06.375 INFO] (\ready\slashComandsReady.js:9:12): Chargement des slash commandes
+[03/08/2022 - 01:31:06.381 DEBUG] (\ready\slashComandsReady.js:73:16): ReferenceError: commandInformations is not defined
+[03/08/2022 - 01:31:06.384 INFO] (\ready\slashComandsReady.js:77:12): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:31:36.916 INFO] (\ready\slashComandsReady.js:9:12): Chargement des slash commandes
+[03/08/2022 - 01:31:36.920 DEBUG] (\ready\slashComandsReady.js:73:16): ReferenceError: config is not defined
+[03/08/2022 - 01:31:36.923 INFO] (\ready\slashComandsReady.js:77:12): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:32:02.766 INFO] (\ready\slashComandsReady.js:9:12): Chargement des slash commandes
+[03/08/2022 - 01:32:02.770 DEBUG] (\ready\slashComandsReady.js:49:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:32:02.776 INFO] (\ready\slashComandsReady.js:53:32): ✅ Successfully reloaded guild commands for Assistance bot ORU (909168225936363601)
+[03/08/2022 - 01:32:02.777 INFO] (\ready\slashComandsReady.js:77:12): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:33:57.087 INFO] (\ready\slashComandsReady.js:9:12): Chargement des slash commandes
+[03/08/2022 - 01:33:57.091 DEBUG] (\ready\slashComandsReady.js:49:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:33:57.093 INFO] (\ready\slashComandsReady.js:53:32): ✅ Successfully reloaded guild commands for Assistance bot ORU (909168225936363601)
+[03/08/2022 - 01:33:57.094 INFO] (\ready\slashComandsReady.js:77:12): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:34:48.981 INFO] (\ready\slashComandsReady.js:9:12): Chargement des slash commandes
+[03/08/2022 - 01:34:48.986 DEBUG] (\ready\slashComandsReady.js:49:28): config.bot.setApplicationCommandsInLocal_guilds[i],909168225936363601
+[03/08/2022 - 01:34:48.988 INFO] (\ready\slashComandsReady.js:53:32): ✅ Successfully reloaded guild commands for Assistance bot ORU (909168225936363601)
+[03/08/2022 - 01:34:48.990 INFO] (\ready\slashComandsReady.js:77:12): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:38:38.941 INFO] (\ready\slashComandsReady.js:9:12): ⬜ Chargement des slash commandes
+[03/08/2022 - 01:38:38.946 INFO] (\ready\slashComandsReady.js:52:32): ✔ Successfully reloaded guild commands for Assistance bot ORU (909168225936363601)
+[03/08/2022 - 01:38:38.947 INFO] (\ready\slashComandsReady.js:70:16): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:39:40.967 INFO] (\ready\slashComandsReady.js:9:12): ⬜ Chargement des slash commandes
+[03/08/2022 - 01:39:40.972 WARN] (\ready\slashComandsReady.js:46:20): ❕ Penser à désactiver le config.bot.setApplicationCommandsOnStart pour ne pas recharger les commandes à chaque démarrage.
+[03/08/2022 - 01:39:40.974 INFO] (\ready\slashComandsReady.js:53:32): ✔ Successfully reloaded guild commands for Assistance bot ORU (909168225936363601)
+[03/08/2022 - 01:39:40.975 INFO] (\ready\slashComandsReady.js:71:16): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:39:58.814 INFO] (\ready\slashComandsReady.js:9:12): ⬜ Chargement des slash commandes
+[03/08/2022 - 01:39:58.818 WARN] (\ready\slashComandsReady.js:46:20): ❕ Penser à désactiver le config.bot.setApplicationCommandsOnStart pour ne pas recharger les commandes à chaque démarrage.
+[03/08/2022 - 01:39:58.821 INFO] (\ready\slashComandsReady.js:53:32): ✔ Successfully reloaded guild commands for Assistance bot ORU (909168225936363601)
+[03/08/2022 - 01:39:58.823 INFO] (\ready\slashComandsReady.js:71:16): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:42:37.310 INFO] (\ready\slashComandsReady.js:9:12): ⬜ Chargement des slash commandes
+[03/08/2022 - 01:42:37.314 INFO] (\ready\slashComandsReady.js:41:24): ✔ Successfully loaded command ping
+[03/08/2022 - 01:42:37.316 WARN] (\ready\slashComandsReady.js:46:20): ❕ Penser à désactiver le config.bot.setApplicationCommandsOnStart pour ne pas recharger les commandes à chaque démarrage.
+[03/08/2022 - 01:42:37.318 INFO] (\ready\slashComandsReady.js:53:32): ✔ Successfully reloaded guild commands for Assistance bot ORU (909168225936363601)
+[03/08/2022 - 01:42:37.319 INFO] (\ready\slashComandsReady.js:71:16): ✅ Chargement des slash commandes terminé
+[03/08/2022 - 01:45:16.002 INFO] (\ready\slashComandsReady.js:9:12): ⬜ Chargement des slash commandes
+[03/08/2022 - 01:45:16.006 INFO] (\ready\slashComandsReady.js:42:28): ✔ Successfully loaded command ping
+[03/08/2022 - 01:45:16.008 WARN] (\ready\slashComandsReady.js:50:20): ❕ Penser à désactiver le config.bot.setApplicationCommandsOnStart pour ne pas recharger les commandes à chaque démarrage.
+[03/08/2022 - 01:45:16.010 INFO] (\ready\slashComandsReady.js:57:32): ✔ Successfully reloaded guild commands for Assistance bot ORU (909168225936363601)
+[03/08/2022 - 01:45:16.012 INFO] (\ready\slashComandsReady.js:75:16): ✅ Chargement des slash commandes terminé
