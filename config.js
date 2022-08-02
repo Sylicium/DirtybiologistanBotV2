@@ -1,4 +1,4 @@
-
+/*
 let ENV = {
     "TOKEN": "OTI4MzA3OTYxOTM0Mjc0NTkw.YdW4KQ.zFPsqhCKxl7booNH1BZ0z-qitbg",
     //TOKEN: "OTA1ODI1MDA1MzAzMTE5OTEz.YYPtRg.GnlV9AIWkwDWxLKbiohX-RJW1po",
@@ -14,10 +14,9 @@ let ENV = {
     "webhook_token_bordel_logs": "8zYkTI36Dp_NPUDVBzudaNCwoQhuOmNoHyUm0-AVz9_iq6ESRnUgaPlIsAo7ADQ-KBPS",
     "website_hash_salt": "NJqLmPAkGOjWdIi1l6yoxdAywq0Yx7lc"
 }
-
+*/
 
 module.exports = {
-    token: ENV["TOKEN"],
     version: "2.0.0",
     superAdminList: [
         "774003919625519134"
@@ -25,12 +24,17 @@ module.exports = {
     bot: {
         prefix: "-",
         force_maintenance: true,
-        token: ENV["TOKEN"],
+        token: process.env["TOKEN"],
         embedFooter: `DirtyBiologistan`,
         embedFooterDot: `DirtyBiologistan •`,
         embedDot: `•`,
         min_members: 50, // inclu
-        max_guilds: 65
+        max_guilds: 65,
+        setApplicationCommandsOnStart: true,
+        setApplicationCommandsInLocal: true,
+        setApplicationCommandsInLocal_guilds: [
+            "909168225936363601"
+        ]
     },
     global: {
         logs: {

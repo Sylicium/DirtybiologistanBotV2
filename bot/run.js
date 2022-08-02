@@ -118,7 +118,11 @@ module.exports.run = () => {
                 fileName.pop()
                 fileName.join(".")
                 //require(`./events/${eventType}/${fileName}`).start(bot, eventType)
-                eventCollection[eventType].push(require(`./events/${eventType}/${fileName}`));
+                let the_require = require(`./events/${eventType}/${fileName}`)
+                try { the_require.start() } catch(e) {
+                    logger.warn(`${e} <- /bot/events/${eventType}/${file}`)
+                }
+                eventCollection[eventType].push(the_require);
             }
         })
     });
@@ -281,5 +285,5 @@ module.exports.run = () => {
     //require("./localModules/ExtendedMessage");
 
     bot.login(config.bot.token)
-
+    return bot
 }

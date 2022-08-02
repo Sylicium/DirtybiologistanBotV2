@@ -68,3 +68,1375 @@ File created on 18/06/2022, 11:06:55
 [02/08/2022, 16:32:06 ERROR] (unknown):     at Module._compile (internal/modules/cjs/loader.js:1085:14)
 [02/08/2022, 16:32:06 ERROR] (unknown):     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
 [02/08/2022, 16:32:06 ERROR] (unknown): 
+[02/08/2022, 18:26:28 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoNetworkError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:28 ERROR] (unknown):     at connectionFailureError (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connect.js:375:20)
+[02/08/2022, 18:26:28 ERROR] (unknown):     at TLSSocket.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connect.js:295:22)
+[02/08/2022, 18:26:28 ERROR] (unknown):     at Object.onceWrapper (events.js:520:26)
+[02/08/2022, 18:26:28 ERROR] (unknown):     at TLSSocket.emit (events.js:400:28)
+[02/08/2022, 18:26:28 ERROR] (unknown):     at emitErrorNT (internal/streams/destroy.js:106:8)
+[02/08/2022, 18:26:28 ERROR] (unknown):     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+[02/08/2022, 18:26:28 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[02/08/2022, 18:26:28 ERROR] (unknown): 
+[02/08/2022, 18:26:57 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:57 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:57 ERROR] (unknown): 
+[02/08/2022, 18:26:57 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:57 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:57 ERROR] (unknown): 
+[02/08/2022, 18:26:57 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:57 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:57 ERROR] (unknown): 
+[02/08/2022, 18:26:57 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:57 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:57 ERROR] (unknown): 
+[02/08/2022, 18:26:57 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:57 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:57 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:57 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:58 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:58 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:58 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:58 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:26:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:26:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:26:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:26:59 ERROR] (unknown): 
+[02/08/2022, 18:27:00 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:00 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:00 ERROR] (unknown): 
+[02/08/2022, 18:27:00 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:00 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:00 ERROR] (unknown): 
+[02/08/2022, 18:27:00 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:00 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:00 ERROR] (unknown): 
+[02/08/2022, 18:27:00 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:00 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:00 ERROR] (unknown): 
+[02/08/2022, 18:27:00 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:00 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:00 ERROR] (unknown): 
+[02/08/2022, 18:27:00 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:00 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:00 ERROR] (unknown): 
+[02/08/2022, 18:27:00 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:00 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:00 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:00 ERROR] (unknown): 
+[02/08/2022, 18:27:04 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:04 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:04 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:04 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:04 ERROR] (unknown): 
+[02/08/2022, 18:27:04 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:04 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:04 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:04 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:04 ERROR] (unknown): 
+[02/08/2022, 18:27:04 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:04 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:04 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:04 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:04 ERROR] (unknown): 
+[02/08/2022, 18:27:06 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:06 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:06 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:06 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:06 ERROR] (unknown): 
+[02/08/2022, 18:27:10 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:10 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:10 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:10 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:10 ERROR] (unknown): 
+[02/08/2022, 18:27:10 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:10 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:10 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:10 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:10 ERROR] (unknown): 
+[02/08/2022, 18:27:10 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:10 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:10 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:10 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:10 ERROR] (unknown): 
+[02/08/2022, 18:27:16 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:16 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:16 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:16 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:16 ERROR] (unknown): 
+[02/08/2022, 18:27:16 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:16 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:16 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:16 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:16 ERROR] (unknown): 
+[02/08/2022, 18:27:16 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:16 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:16 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:16 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:16 ERROR] (unknown): 
+[02/08/2022, 18:27:16 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:16 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:16 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:16 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:16 ERROR] (unknown): 
+[02/08/2022, 18:27:22 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:22 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:22 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:22 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:22 ERROR] (unknown): 
+[02/08/2022, 18:27:22 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:22 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:22 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:22 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:22 ERROR] (unknown): 
+[02/08/2022, 18:27:22 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:22 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:22 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:22 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:22 ERROR] (unknown): 
+[02/08/2022, 18:27:26 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:26 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:26 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:26 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:26 ERROR] (unknown): 
+[02/08/2022, 18:27:27 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:27 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:27 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:27 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:27 ERROR] (unknown): 
+[02/08/2022, 18:27:27 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:27 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:27 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:27 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:27 ERROR] (unknown): 
+[02/08/2022, 18:27:29 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:29 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:29 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:29 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:29 ERROR] (unknown): 
+[02/08/2022, 18:27:29 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:29 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:29 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:29 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:29 ERROR] (unknown): 
+[02/08/2022, 18:27:29 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:29 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:29 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:29 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:29 ERROR] (unknown): 
+[02/08/2022, 18:27:35 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:35 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:35 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:35 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:35 ERROR] (unknown): 
+[02/08/2022, 18:27:35 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:35 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:35 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:35 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:35 ERROR] (unknown): 
+[02/08/2022, 18:27:35 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:35 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:35 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:35 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:35 ERROR] (unknown): 
+[02/08/2022, 18:27:36 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:36 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:36 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:36 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:36 ERROR] (unknown): 
+[02/08/2022, 18:27:37 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:37 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:37 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:37 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:37 ERROR] (unknown): 
+[02/08/2022, 18:27:41 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:41 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:41 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:41 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:41 ERROR] (unknown): 
+[02/08/2022, 18:27:41 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:41 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:41 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:41 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:41 ERROR] (unknown): 
+[02/08/2022, 18:27:41 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:41 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:41 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:41 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:41 ERROR] (unknown): 
+[02/08/2022, 18:27:46 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:46 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:46 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:46 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:46 ERROR] (unknown): 
+[02/08/2022, 18:27:47 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:47 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:47 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:47 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:47 ERROR] (unknown): 
+[02/08/2022, 18:27:47 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:47 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:47 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:47 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:47 ERROR] (unknown): 
+[02/08/2022, 18:27:47 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:47 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:47 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:47 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:47 ERROR] (unknown): 
+[02/08/2022, 18:27:47 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:47 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:47 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:47 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:47 ERROR] (unknown): 
+[02/08/2022, 18:27:53 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:53 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:53 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:53 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:53 ERROR] (unknown): 
+[02/08/2022, 18:27:53 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:53 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:53 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:53 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:53 ERROR] (unknown): 
+[02/08/2022, 18:27:53 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:53 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:53 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:53 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:53 ERROR] (unknown): 
+[02/08/2022, 18:27:56 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:56 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:56 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:56 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:56 ERROR] (unknown): 
+[02/08/2022, 18:27:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:59 ERROR] (unknown): 
+[02/08/2022, 18:27:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:59 ERROR] (unknown): 
+[02/08/2022, 18:27:59 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:27:59 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:27:59 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:27:59 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:27:59 ERROR] (unknown): 
+[02/08/2022, 18:28:05 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:05 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:05 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:05 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:05 ERROR] (unknown): 
+[02/08/2022, 18:28:05 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:05 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:05 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:05 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:05 ERROR] (unknown): 
+[02/08/2022, 18:28:05 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:05 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:05 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:05 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:05 ERROR] (unknown): 
+[02/08/2022, 18:28:06 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:06 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:06 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:06 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:06 ERROR] (unknown): 
+[02/08/2022, 18:28:11 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:11 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:11 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:11 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:11 ERROR] (unknown): 
+[02/08/2022, 18:28:11 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:11 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:11 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:11 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:11 ERROR] (unknown): 
+[02/08/2022, 18:28:11 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:11 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:11 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:11 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:11 ERROR] (unknown): 
+[02/08/2022, 18:28:16 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:16 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:16 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:16 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:16 ERROR] (unknown): 
+[02/08/2022, 18:28:17 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:17 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:17 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:17 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:17 ERROR] (unknown): 
+[02/08/2022, 18:28:17 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:17 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:17 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:17 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:17 ERROR] (unknown): 
+[02/08/2022, 18:28:17 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-shard-00-01.wrmyx.mongodb.net
+[02/08/2022, 18:28:17 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 18:28:17 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 18:28:17 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 18:28:17 ERROR] (unknown): 
+[02/08/2022, 19:01:19 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:01:19 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:01:19 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:01:19 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[02/08/2022, 19:01:19 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[02/08/2022, 19:01:19 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:01:19 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:01:19 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:01:19 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:01:19 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:01:19 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:01:19 ERROR] (unknown): 
+[02/08/2022, 19:01:38 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:01:38 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:01:38 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:01:38 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[02/08/2022, 19:01:38 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[02/08/2022, 19:01:38 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:01:38 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:01:38 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:01:38 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:01:38 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:01:38 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:01:38 ERROR] (unknown): 
+[02/08/2022, 19:02:01 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:02:01 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:02:01 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:02:01 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[02/08/2022, 19:02:01 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[02/08/2022, 19:02:01 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:02:01 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:02:01 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:02:01 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:02:01 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:02:01 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:02:01 ERROR] (unknown): 
+[02/08/2022, 19:02:13 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:02:13 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:02:13 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:02:13 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[02/08/2022, 19:02:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[02/08/2022, 19:02:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:02:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:02:13 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:02:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:02:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:02:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:02:13 ERROR] (unknown): 
+[02/08/2022, 19:02:20 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:02:20 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:02:20 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:02:20 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[02/08/2022, 19:02:20 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[02/08/2022, 19:02:20 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:02:20 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:02:20 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:02:20 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:02:20 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:02:20 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:02:20 ERROR] (unknown): 
+[02/08/2022, 19:02:26 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:02:26 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:02:26 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:02:26 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[02/08/2022, 19:02:26 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[02/08/2022, 19:02:26 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:02:26 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:02:26 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:02:26 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:02:26 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:02:26 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:02:26 ERROR] (unknown): 
+[02/08/2022, 19:02:32 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:02:32 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:02:32 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:02:32 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[02/08/2022, 19:02:32 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[02/08/2022, 19:02:32 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:02:32 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:02:32 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:02:32 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:02:32 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:02:32 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:02:32 ERROR] (unknown): 
+[02/08/2022, 19:02:46 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:02:46 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:02:46 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:02:46 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[02/08/2022, 19:02:46 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[02/08/2022, 19:02:46 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:02:46 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:02:46 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:02:46 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:02:46 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:02:46 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:02:46 ERROR] (unknown): 
+[02/08/2022, 19:03:13 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:03:13 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:03:13 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:03:13 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:106:25)
+[02/08/2022, 19:03:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:35:5
+[02/08/2022, 19:03:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:03:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:03:13 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:03:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:03:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:03:13 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:03:13 ERROR] (unknown): 
+[02/08/2022, 19:03:51 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:03:51 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:03:51 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:03:51 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:106:25)
+[02/08/2022, 19:03:51 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:35:5
+[02/08/2022, 19:03:51 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:03:51 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:03:51 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:03:51 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:03:51 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:03:51 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:03:51 ERROR] (unknown): 
+[02/08/2022, 19:06:03 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:06:03 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:06:03 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:06:03 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:106:25)
+[02/08/2022, 19:06:03 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:35:5
+[02/08/2022, 19:06:03 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:06:03 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:06:03 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:06:03 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:06:03 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:06:03 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:06:03 ERROR] (unknown): 
+[02/08/2022, 19:07:15 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:07:15 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:07:15 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:07:15 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:106:25)
+[02/08/2022, 19:07:15 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:35:5
+[02/08/2022, 19:07:15 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:07:15 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:07:15 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:07:15 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:07:15 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:07:15 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:07:15 ERROR] (unknown): 
+[02/08/2022, 19:07:56 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:07:56 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:07:56 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:07:56 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:106:25)
+[02/08/2022, 19:07:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:35:5
+[02/08/2022, 19:07:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:07:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:07:56 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:07:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:07:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:07:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:07:56 ERROR] (unknown): 
+[02/08/2022, 19:08:16 ERROR] (unknown): Unhandled Rejection (process.on handle) Error [TOKEN_INVALID]: An invalid token was provided.
+[02/08/2022, 19:08:16 ERROR] (unknown):     at Client.login (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:206:52)
+[02/08/2022, 19:08:16 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:283:9)
+[02/08/2022, 19:08:16 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:106:25)
+[02/08/2022, 19:08:16 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:35:5
+[02/08/2022, 19:08:16 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[02/08/2022, 19:08:16 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\mongo_client.js:130:17
+[02/08/2022, 19:08:16 ERROR] (unknown):     at connectCallback (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:29:9)
+[02/08/2022, 19:08:16 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\operations\connect.js:80:9
+[02/08/2022, 19:08:16 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:219:25
+[02/08/2022, 19:08:16 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+[02/08/2022, 19:08:16 ERROR] (unknown): 
+[02/08/2022, 23:06:55 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:06:55 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:06:55 ERROR] (unknown): 
+[02/08/2022, 23:06:55 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:06:55 ERROR] (unknown):     at Object.module.exports.onEvent (C:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at Client.<anonymous> (C:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at MessageCreateAction.handle (C:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (C:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocketManager.handlePacket (C:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocketShard.onPacket (C:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocketShard.onMessage (C:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocket.onMessage (C:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:06:55 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:06:55 ERROR] (unknown): 
+[02/08/2022, 23:09:30 ERROR] (unknown): Unhandled Rejection (process.on handle) TypeError: clc.orange is not a function
+[02/08/2022, 23:09:30 ERROR] (unknown):     at colorizeThisType (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\localModules\logger.js:68:35)
+[02/08/2022, 23:09:30 ERROR] (unknown):     at Logger._writeLogLine (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\localModules\logger.js:253:60)
+[02/08/2022, 23:09:30 ERROR] (unknown):     at Logger.warn (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\localModules\logger.js:304:14)
+[02/08/2022, 23:09:30 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:120:12)
+[02/08/2022, 23:09:30 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:09:30 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:09:30 ERROR] (unknown): 
+[02/08/2022, 23:09:44 ERROR] (unknown): Unhandled Rejection (process.on handle) TypeError: clc.gold is not a function
+[02/08/2022, 23:09:44 ERROR] (unknown):     at colorizeThisType (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\localModules\logger.js:68:35)
+[02/08/2022, 23:09:44 ERROR] (unknown):     at Logger._writeLogLine (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\localModules\logger.js:253:60)
+[02/08/2022, 23:09:44 ERROR] (unknown):     at Logger.warn (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\localModules\logger.js:304:14)
+[02/08/2022, 23:09:44 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:120:12)
+[02/08/2022, 23:09:44 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:09:44 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:09:44 ERROR] (unknown): 
+[02/08/2022, 23:11:47 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:11:47 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:11:47 ERROR] (unknown): 
+[02/08/2022, 23:11:47 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:11:47 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:11:47 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:11:47 ERROR] (unknown): 
+[02/08/2022, 23:13:12 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:13:12 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:13:12 ERROR] (unknown): 
+[02/08/2022, 23:13:12 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:13:12 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:13:12 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:13:12 ERROR] (unknown): 
+[02/08/2022, 23:36:09 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:36:09 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:36:09 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:36:09 ERROR] (unknown): 
+[02/08/2022, 23:36:09 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:36:09 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:36:09 ERROR] (unknown): 
+[02/08/2022, 23:38:50 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 15.188.44.36:27017
+[02/08/2022, 23:38:50 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:50 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:50 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:50 ERROR] (unknown): 
+[02/08/2022, 23:38:50 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 15.188.44.36:27017
+[02/08/2022, 23:38:50 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:50 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:50 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:50 ERROR] (unknown): 
+[02/08/2022, 23:38:51 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 52.47.154.9:27017
+[02/08/2022, 23:38:51 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:51 ERROR] (unknown): 
+[02/08/2022, 23:38:51 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 52.47.154.9:27017
+[02/08/2022, 23:38:51 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:51 ERROR] (unknown): 
+[02/08/2022, 23:38:51 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 52.47.154.9:27017
+[02/08/2022, 23:38:51 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:51 ERROR] (unknown): 
+[02/08/2022, 23:38:51 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 15.188.44.36:27017
+[02/08/2022, 23:38:51 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:51 ERROR] (unknown): 
+[02/08/2022, 23:38:51 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 15.188.44.36:27017
+[02/08/2022, 23:38:51 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:51 ERROR] (unknown): 
+[02/08/2022, 23:38:51 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 15.188.44.36:27017
+[02/08/2022, 23:38:51 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:51 ERROR] (unknown): 
+[02/08/2022, 23:38:51 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 15.188.44.36:27017
+[02/08/2022, 23:38:51 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:51 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:51 ERROR] (unknown): 
+[02/08/2022, 23:38:52 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ETIMEDOUT 52.47.154.9:27017
+[02/08/2022, 23:38:52 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:52 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:52 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:52 ERROR] (unknown): 
+[02/08/2022, 23:38:52 ERROR] (unknown): Unhandled Rejection (process.on handle) MongoServerSelectionError: connect ECONNABORTED 15.188.44.36:27017
+[02/08/2022, 23:38:52 ERROR] (unknown):     at Timeout._onTimeout (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\sdam\topology.js:312:38)
+[02/08/2022, 23:38:52 ERROR] (unknown):     at listOnTimeout (internal/timers.js:557:17)
+[02/08/2022, 23:38:52 ERROR] (unknown):     at processTimers (internal/timers.js:500:7)
+[02/08/2022, 23:38:52 ERROR] (unknown): 
+[02/08/2022, 23:46:26 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:46:26 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:46:26 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:46:26 ERROR] (unknown): 
+[02/08/2022, 23:46:27 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: file is not defined
+[02/08/2022, 23:46:27 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:27:9
+[02/08/2022, 23:46:27 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[02/08/2022, 23:46:27 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:26:43)
+[02/08/2022, 23:46:27 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:46:27 ERROR] (unknown): 
+[02/08/2022, 23:47:04 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:47:04 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:47:04 ERROR] (unknown): 
+[02/08/2022, 23:47:04 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: eventType is not defined
+[02/08/2022, 23:47:04 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:32:40
+[02/08/2022, 23:47:04 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:26:43)
+[02/08/2022, 23:47:04 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:47:04 ERROR] (unknown): 
+[02/08/2022, 23:47:16 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:47:16 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:47:16 ERROR] (unknown): 
+[02/08/2022, 23:47:16 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: eventType is not defined
+[02/08/2022, 23:47:16 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:32:40
+[02/08/2022, 23:47:16 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:26:43)
+[02/08/2022, 23:47:16 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:47:16 ERROR] (unknown): 
+[02/08/2022, 23:49:49 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:49:49 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:49:49 ERROR] (unknown): 
+[02/08/2022, 23:49:49 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: eventType is not defined
+[02/08/2022, 23:49:49 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:32:40
+[02/08/2022, 23:49:49 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:26:43)
+[02/08/2022, 23:49:49 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:49:49 ERROR] (unknown): 
+[02/08/2022, 23:50:02 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:50:02 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:50:02 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:50:02 ERROR] (unknown): 
+[02/08/2022, 23:50:03 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: eventType is not defined
+[02/08/2022, 23:50:03 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:32:40
+[02/08/2022, 23:50:03 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[02/08/2022, 23:50:03 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:26:43)
+[02/08/2022, 23:50:03 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:50:03 ERROR] (unknown): 
+[02/08/2022, 23:50:51 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:50:51 ERROR] (unknown): 
+[02/08/2022, 23:50:51 ERROR] (unknown): Unhandled Rejection (process.on handle) Error: Cannot find module '/bot/slashcommands/ping'
+[02/08/2022, 23:50:51 ERROR] (unknown): Require stack:
+[02/08/2022, 23:50:51 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js
+[02/08/2022, 23:50:51 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+[02/08/2022, 23:50:51 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at require (internal/modules/cjs/helpers.js:93:18)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:32:20
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:26:43)
+[02/08/2022, 23:50:51 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:50:51 ERROR] (unknown): 
+[02/08/2022, 23:50:54 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:50:54 ERROR] (unknown): 
+[02/08/2022, 23:50:54 ERROR] (unknown): Unhandled Rejection (process.on handle) Error: Cannot find module '/bot/slashcommands/ping'
+[02/08/2022, 23:50:54 ERROR] (unknown): Require stack:
+[02/08/2022, 23:50:54 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js
+[02/08/2022, 23:50:54 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+[02/08/2022, 23:50:54 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at require (internal/modules/cjs/helpers.js:93:18)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:32:20
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:26:43)
+[02/08/2022, 23:50:54 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:50:54 ERROR] (unknown): 
+[02/08/2022, 23:51:23 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:51:23 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:51:23 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:51:23 ERROR] (unknown): 
+[02/08/2022, 23:53:37 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:53:37 ERROR] (unknown): 
+[02/08/2022, 23:53:37 ERROR] (unknown): Unhandled Rejection (process.on handle) Error: Cannot find module './bot/slashcommands/ping'
+[02/08/2022, 23:53:37 ERROR] (unknown): Require stack:
+[02/08/2022, 23:53:37 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js
+[02/08/2022, 23:53:37 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+[02/08/2022, 23:53:37 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at require (internal/modules/cjs/helpers.js:93:18)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:32:20
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Array.forEach (<anonymous>)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:26:43)
+[02/08/2022, 23:53:37 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:53:37 ERROR] (unknown): 
+[02/08/2022, 23:56:27 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:56:27 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:56:27 ERROR] (unknown): 
+[02/08/2022, 23:56:27 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:56:27 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:73:9)
+[02/08/2022, 23:56:27 ERROR] (unknown):     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[02/08/2022, 23:56:27 ERROR] (unknown): 
+[02/08/2022, 23:58:23 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ Error: Cannot find module '../../config'
+[02/08/2022, 23:58:23 ERROR] (unknown): Require stack:
+[02/08/2022, 23:58:23 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js
+[02/08/2022, 23:58:23 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+[02/08/2022, 23:58:23 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at require (internal/modules/cjs/helpers.js:93:18)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Object.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:5:14)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Module._compile (internal/modules/cjs/loader.js:1085:14)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Module.load (internal/modules/cjs/loader.js:950:32)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+[02/08/2022, 23:58:23 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[02/08/2022, 23:58:23 ERROR] (unknown): 
+[02/08/2022, 23:58:46 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:58:46 ERROR] (unknown): 
+[02/08/2022, 23:58:46 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ Error: Cannot find module '../../config'
+[02/08/2022, 23:58:46 ERROR] (unknown): Require stack:
+[02/08/2022, 23:58:46 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js
+[02/08/2022, 23:58:46 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+[02/08/2022, 23:58:46 ERROR] (unknown): - c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at require (internal/modules/cjs/helpers.js:93:18)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Object.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js:5:14)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Module._compile (internal/modules/cjs/loader.js:1085:14)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Module.load (internal/modules/cjs/loader.js:950:32)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+[02/08/2022, 23:58:46 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[02/08/2022, 23:58:46 ERROR] (unknown): 
+[02/08/2022, 23:58:48 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[02/08/2022, 23:58:48 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[02/08/2022, 23:58:48 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[02/08/2022, 23:58:48 ERROR] (unknown): 
+[03/08/2022, 00:21:18 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ Error [ERR_UNKNOWN_BUILTIN_MODULE]: No such built-in module: node:timers/promises
+[03/08/2022, 00:21:18 ERROR] (unknown):     at new NodeError (internal/errors.js:322:7)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:753:13)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at require (internal/modules/cjs/helpers.js:93:18)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at Object.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\@discordjs\rest\dist\lib\handlers\SequentialHandler.cjs:5:18)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at Module._compile (internal/modules/cjs/loader.js:1085:14)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at Module.load (internal/modules/cjs/loader.js:950:32)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+[03/08/2022, 00:21:18 ERROR] (unknown):     at Module.require (internal/modules/cjs/loader.js:974:19)
+[03/08/2022, 00:21:18 ERROR] (unknown): 
+[03/08/2022, 00:24:48 ERROR] (unknown): Unhandled Rejection (process.on handle) ReferenceError: message is not defined
+[03/08/2022, 00:24:48 ERROR] (unknown):     at Object.module.exports.onEvent (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\message\slashCommands.js:20:45)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at Client.<anonymous> (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:221:46)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at Client.emit (events.js:412:35)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at MessageCreateAction.handle (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at Object.module.exports [as MESSAGE_CREATE] (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at WebSocketManager.handlePacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at WebSocketShard.onPacket (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at WebSocketShard.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at WebSocket.onMessage (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\ws\lib\event-target.js:132:16)
+[03/08/2022, 00:24:48 ERROR] (unknown):     at WebSocket.emit (events.js:400:28)
+[03/08/2022, 00:24:48 ERROR] (unknown): 
+[03/08/2022, 00:28:56 ERROR] (unknown): /!\ UNCAUGH ERROR /!\ RangeError [BitFieldInvalid]: Invalid bitfield flag or number: GUILD_MESSAGES.
+[03/08/2022, 00:28:56 ERROR] (unknown):     at Function.resolve (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\util\BitField.js:168:11)
+[03/08/2022, 00:28:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\util\BitField.js:163:54
+[03/08/2022, 00:28:56 ERROR] (unknown):     at Array.map (<anonymous>)
+[03/08/2022, 00:28:56 ERROR] (unknown):     at Function.resolve (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\util\BitField.js:163:40)
+[03/08/2022, 00:28:56 ERROR] (unknown):     at Client._validateOptions (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:482:41)
+[03/08/2022, 00:28:56 ERROR] (unknown):     at new Client (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\discord.js\src\client\Client.js:78:10)
+[03/08/2022, 00:28:56 ERROR] (unknown):     at Object.module.exports.run (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js:20:11)
+[03/08/2022, 00:28:56 ERROR] (unknown):     at _allCode (c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:105:25)
+[03/08/2022, 00:28:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js:34:5
+[03/08/2022, 00:28:56 ERROR] (unknown):     at c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\node_modules\mongodb\lib\utils.js:510:9
+[03/08/2022, 00:28:56 ERROR] (unknown): 

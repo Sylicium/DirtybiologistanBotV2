@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "cli-color": "^2.0.1",
-    "discord.js": "^12.5.3",
+    "discord.js": "^14.1.2",
     "mongodb": "^4.4.0",
     "test": "^0.6.0"
   },

@@ -1,3 +1,4 @@
+const { bot } = require("../../../config")
 
 
 const logger = new (require("../../../localModules/logger"))()

@@ -10,10 +10,14 @@
 /*    Last update: 10/04/2022    */
 /*********************************/
 
+try {
+    require("dotenv").config()
+} catch(e) {}
 
 const Database = require("./localModules/database")
 const MongoClient = require('mongodb').MongoClient;
 const logger = new (require("./localModules/logger"))()
+
 
 logger.info("=======================================")
 logger.info("========== [Starting script] ==========")
@@ -82,7 +86,7 @@ process.on('exit', function(code) {
     }
 });
 
-//console.log = () => {throw new Error("ARRETE D'UTILISER LE CONSOLE.LOG T'AS DEV UN MODULE LOGGER C PAS POUR RIEN")}
+//console.log = () => {throw new Error("ARRETE D'UTILI² LE CONSOLE.LOG T'AS DEV UN MODULE LOGGER C PAS POUR RIEN")}
 
 
 

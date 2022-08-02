@@ -1,0 +1,76 @@
+File created on 02/08/2022 at 23:06:37.356
+
+[02/08/2022 - 23:46:27.232 DEBUG] (\message\slashCommands.js:22:12): Got interaction: 1004143166322114682
+[02/08/2022 - 23:47:04.831 DEBUG] (\message\slashCommands.js:22:12): Got interaction: 1004143324090863776
+[02/08/2022 - 23:47:16.702 DEBUG] (\message\slashCommands.js:22:12): Got interaction: 1004143374166663279
+[02/08/2022 - 23:49:49.402 DEBUG] (\message\slashCommands.js:22:12): Got interaction: 1004144014422966313
+[02/08/2022 - 23:50:03.023 DEBUG] (\message\slashCommands.js:22:12): Got interaction: 1004144071465521284
+[02/08/2022 - 23:50:51.592 DEBUG] (\message\slashCommands.js:22:12): Got interaction: 1004144275174461635
+[02/08/2022 - 23:50:54.762 DEBUG] (\message\slashCommands.js:22:12): Got interaction: 1004144288650768606
+[02/08/2022 - 23:53:37.432 DEBUG] (\message\slashCommands.js:22:12): Got interaction: 1004144971101786232
+[02/08/2022 - 23:56:27.770 DEBUG] (\message\slashCommands.js:64:12): Got interaction: 1004145685194625125
+[02/08/2022 - 23:57:31.037 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[02/08/2022 - 23:59:29.566 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:00:56.986 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:01:24.794 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:02:03.609 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:02:03.611 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:03:00.211 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:03:00.215 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:03:27.668 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:03:27.707 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:06:32.160 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:07:25.898 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:08:13.426 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:09:22.874 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:09:22.877 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:09:48.724 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:10:45.571 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:11:00.811 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:11:40.977 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:14:35.868 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:15:10.933 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:16:09.063 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:16:09.118 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:16:44.430 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:16:44.458 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:16:44.473 DEBUG] (\interactionCreate\slashCommands.js:37:12): Error: Cannot find module './bot/slashcommands/ping'
+Require stack:
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[03/08/2022 - 00:16:44.495 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:16:44.521 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:16:44.533 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:16:44.573 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:17:10.958 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:17:10.963 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:17:10.975 DEBUG] (\interactionCreate\slashCommands.js:37:12): Error: Cannot find module '../../../localModules/logger'
+Require stack:
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\slashcommands\ping.js
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[03/08/2022 - 00:17:10.980 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:17:10.983 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:17:10.984 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:17:10.986 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:19:09.440 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:19:09.444 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:19:09.479 DEBUG] (\interactionCreate\slashCommands.js:37:12): Error: Cannot find module '../../../config'
+Require stack:
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\slashcommands\ping.js
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\events\interactionCreate\slashCommands.js
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\bot\run.js
+- c:\Users\Sylicium\Documents\DirtyBiologystan\bot\DirtyBiology v2.0 - Github\DirtybiologistanBotV2\index.js
+[03/08/2022 - 00:19:09.487 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:19:09.491 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:19:09.493 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:19:09.494 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
+[03/08/2022 - 00:19:35.601 DEBUG] (\interactionCreate\slashCommands.js:19:12): ok
+[03/08/2022 - 00:19:35.610 DEBUG] (\interactionCreate\slashCommands.js:22:16): ✅ log: file:,ping.js
+[03/08/2022 - 00:19:35.638 DEBUG] (\interactionCreate\slashCommands.js:37:12): TypeError: Cannot read property 'ChatInput' of undefined
+[03/08/2022 - 00:19:35.658 DEBUG] (\interactionCreate\slashCommands.js:40:12): config.bot,[object Object]
+[03/08/2022 - 00:19:35.661 DEBUG] (\interactionCreate\slashCommands.js:43:16): ✅ 1
+[03/08/2022 - 00:19:35.663 DEBUG] (\interactionCreate\slashCommands.js:45:16): ✅ 1.5
+[03/08/2022 - 00:19:35.665 DEBUG] (\interactionCreate\slashCommands.js:47:20): ✅ 2
