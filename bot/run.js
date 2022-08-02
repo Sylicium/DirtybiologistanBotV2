@@ -244,7 +244,7 @@ module.exports.run = () => {
         logger.debug("got message:",message.content)
     })
     
-
+ 
     /*
     let commandFiles = fs.readdirSync('./bot/commands/guildMessage').filter(file => file.endsWith('.js'));
     for(const file of commandFiles) {
