@@ -1,4 +1,7 @@
 .env
 /logs/*
+\logs\*
+logs\*
+logs/*
 mongodb_url_and_password.config
 /datas/config/discordBot_token.config
