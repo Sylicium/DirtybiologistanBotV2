@@ -1,6 +1,6 @@
 
 /**
- * @version 2.0.0 // 28/07/2022
+ * @version 2.1.0 // 13/08/2022
  * @author Sylicium
  * @description Module botFunction qui réunit plein de fonction utiles pour le bot discord
  *
@@ -204,5 +204,49 @@ function incorrectArgument(subcommand_list, message, argument_int) {
 }
 module.exports.incorrectArgument = incorrectArgument
 
+/**
+ * createMdodal(modalConfiguration): renvoie l'objet de modal créé avec la liste d'option fournie
+ * @param {Object} modalConfiguration - La liste des options du modal
+*/
+function createModal(modalConfiguration) {
+    /*
+    {
+        customId: "ccc",
+        title: "titre",
+        options: [
+            {
+                customId: "test",
+                label: "coucou",
+                style: "short"
+            }
+        ]
+    }
+    */
 
+    function getStyleFrom(styleName) {
+        if(styleName == "short") {
+            return Discord.TextInputStyle.Short
+        } else if(styleName == "paragraph") {
+            return Discord.TextInputStyle.Paragraph
+        }
+    }
 
+    let modal = new Discord.ModalBuilder()
+		.setCustomId(modalConfiguration.setCustomId)
+		.setTitle(modalConfiguration.title);
+    
+    let allOptionsComponents = modalConfiguration.map((item, index) => {
+        return new Discord.ActionRowBuilder().addComponents(
+            new Discord.TextInputBuilder()
+			.setCustomId(item.customId)
+			.setLabel(item.label)
+			.setStyle(getStyleFrom(item.style))
+        )
+    })
+
+    modal.addComponents(...allOptionsComponents)
+    
+    return modal
+
+}
+module.exports.createModal = createModal

@@ -23,7 +23,7 @@ logger.info("=======================================")
 logger.info("========== [Starting script] ==========")
 logger.info("=======================================")
 
-let url = JSON.parse(require("fs").readFileSync("mongodb_url_and_password.config"))
+let url = process.env.MONGODB_URL
 
 logger.info("Tentative de connection à MongoDB...")
 MongoClient.connect(url, function(err, Mongo) {
