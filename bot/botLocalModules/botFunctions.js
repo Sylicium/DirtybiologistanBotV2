@@ -19,6 +19,29 @@ module.exports._setBotInstance = (bot) => {
 }
 
 
+module.exports.isSuperAdmin = isSuperAdmin
+/**
+ * f() : Booléen qui retourne true si l'ID est celui d'un SuperAdmin
+ * @param {string} user_id - L'id de l'utilisateur a check
+ */
+function isSuperAdmin(user_id) {
+    return ( config.superAdminList.indexOf(user_id) != -1 )
+}
+
+module.exports.isBetaTester = isBetaTester
+/**
+ * f() : Booléen qui retourne true si l'ID est celui d'un bêta testeur
+ * @param {string} user_id - L'id de l'utilisateur a check
+ */
+function isBetaTester(user_id) {
+    try {
+        let assistance_oru_member = Bot.guilds.cache.get("909168225936363601").members.cache.get(user_id)
+        let answer = assistance_oru_member.roles.cache.has("916067614353162310")
+        return answer
+    } catch(e) {
+        return false
+    }
+}
 
 /**
  * f() : Vérifie si la commande peut etre exécutée avec les permissions du membre et du bot

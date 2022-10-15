@@ -7,6 +7,7 @@ module.exports = {
     bot: {
         prefix: "-",
         force_maintenance: true,
+        betaTest: false, // only beta testers and super admins can use the bot
         token: process.env["TOKEN"],
         embedFooter: `DirtyBiologistan`,
         embedFooterDot: `DirtyBiologistan •`,
@@ -19,11 +20,6 @@ module.exports = {
             "909168225936363601",
             "792139282831507467",
         ]
-    },
-    global: {
-        logs: {
-            coloration: "colored" // normal: erreur tout en rouge, warn tout en orange etc.. | colored couleurs différentes pour la ligne de log pour la date, heure etc..
-        }
     },
     website: {
         url: "https://dirtyBiology.captaincommand.repl.c"

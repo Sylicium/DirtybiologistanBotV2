@@ -51,16 +51,6 @@ let config = require("../config")
 */
 
 
-
-module.exports.isSuperAdmin = isSuperAdmin
-/**
- * f() : Booléen qui retourne true si l'ID est celui d'un SuperAdmin
- * @param {string} user_id - L'id de l'utilisateur a check
- */
-function isSuperAdmin(user_id) {
-    return ( config.superAdminList.indexOf(user_id) != -1 )
-}
-
 module.exports.shuffle = shuffle
 /**
  * f() : Mélange aléatoirement la liste donnée.

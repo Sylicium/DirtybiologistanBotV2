@@ -3,12 +3,10 @@ const Database = require("../../../localModules/database");
 const logger = new (require("../../../localModules/logger"))()
 const fs = require("fs");
 const { config } = require("process");
-let somef = require("../../../localModules/someFunctions")
-let botf = require("../../botLocalModules/botFunctions")
 
 
 function sendErrorMsg(Modules, bot, message, err) {
-    let logged_err = botf.logErrorOnDiscord(err)
+    let logged_err = Modules.botf.logErrorOnDiscord(err)
     message.inlineReply(`❌ Une erreur est survenue à l'éxécution du fichier de la commande:\`\`\`js\n${err} \`\`\`Si l'erreur persiste veuillez contacter l'assistance avec le code suivant: \`${logged_err.id || "Une erreur est survenue"}\` `)
 }
 
@@ -40,9 +38,9 @@ module.exports.onEvent = async (Modules, bot, message,b,c,d,e,f,g,h) => {
             try {
                 let cmd = bot.commands.guildCommands.get(file_name)
                 
-                if(!botf.canExecuteCommand(message, cmd).canExecute) return;
+                if(!Modules.botf.canExecuteCommand(message, cmd).canExecute) return;
                 
-                if(!botf.canExecuteCommand(message, cmd).canExecute) return;
+                if(!Modules.botf.canExecuteCommand(message, cmd).canExecute) return;
                 
                 
                 cmd.execute(Modules, bot, command, args, data, message,b,c,d,e,f,g,h).catch(e => {
@@ -55,7 +53,7 @@ module.exports.onEvent = async (Modules, bot, message,b,c,d,e,f,g,h) => {
 
                 let addText = ""
                 if(`${err}` == "TypeError: Cannot read property 'catch' of undefined") {
-                    if(somef.isSuperAdmin(message.author.id)) {
+                    if(Modules.botf.isSuperAdmin(message.author.id)) {
                         addText = "\n❕ > L'erreur provient sûrement du fait que rien n'est précisé dans dans le return de la commande.\n❕ > Cette erreur a été affichée car vous êtes un SuperAdmin." // la fonction de la commande ne retourne rien alors aucun .catch n'est possible
                         logger.error(err)
                         return message.inlineReply(`❌ Une erreur est survenue à l'éxécution du fichier de la commande:\`\`\`js\n${err}${addText}\`\`\``).then(msg => {

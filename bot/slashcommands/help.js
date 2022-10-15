@@ -36,7 +36,7 @@ module.exports = {
         await interaction.deferReply({ ephemeral: true })
 
 
-        let isUserSuperAdmin = Modules.somef.isSuperAdmin(interaction.user.id)
+        let isUserSuperAdmin = Modules.botf.isSuperAdmin(interaction.user.id)
 
         function needAdministrativePermissions(cmd) {
             let userPerms = Modules.botf.getBitFieldPermission(cmd.commandInformations.permisionsNeeded.user)

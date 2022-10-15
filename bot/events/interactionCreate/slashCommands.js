@@ -133,7 +133,7 @@ module.exports.onEvent = async (Modules, bot, interaction, a,b,c,d,e,f,g,h) => {
             })
         })
     }
-    if(!hasPerm_user.havePerm && !Modules.somef.isSuperAdmin(interaction.user.id)) {
+    if(!hasPerm_user.havePerm && !Modules.botf.isSuperAdmin(interaction.user.id)) {
         return interaction.reply({
             content: `⛔ Halte! Tu n'a pas la permission d'utiliser cette commande.\nIl te manque une de ces permissions: ${cmd.require.commandInformations.permisionsNeeded.user.map((x) => {
                 return `\`${x}\``
@@ -150,19 +150,19 @@ module.exports.onEvent = async (Modules, bot, interaction, a,b,c,d,e,f,g,h) => {
 
     
 
-    if(cmd.require.commandInformations.superAdminOnly && !Modules.somef.isSuperAdmin(interaction.user.id)) {
+    if(cmd.require.commandInformations.superAdminOnly && !Modules.botf.isSuperAdmin(interaction.user.id)) {
         return interaction.reply({
             content: `⛔ Commande SUPER_ADMIN uniquement.`,
             ephemeral: true
         }) 
     }
-    if(cmd.require.commandInformations.disabled && !Modules.somef.isSuperAdmin(interaction.user.id)) {
+    if(cmd.require.commandInformations.disabled && !Modules.botf.isSuperAdmin(interaction.user.id)) {
         return interaction.reply({
             content: `⛔ Commande désactivée.`,
             ephemeral: true
         }) 
     }
-    if(cmd.require.commandInformations.indev && !Modules.somef.isSuperAdmin(interaction.user.id)) {
+    if(cmd.require.commandInformations.indev && !Modules.botf.isSuperAdmin(interaction.user.id)) {
         return interaction.reply({
             content: `🛠 Commande en développement`,
             ephemeral: true
