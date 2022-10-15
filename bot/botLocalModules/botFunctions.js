@@ -206,6 +206,7 @@ module.exports.incorrectArgument = incorrectArgument
 
 /**
  * createMdodal(modalConfiguration): renvoie l'objet de modal créé avec la liste d'option fournie
+ * @version: 1.0.0
  * @param {Object} modalConfiguration - La liste des options du modal
 */
 function createModal(modalConfiguration) {

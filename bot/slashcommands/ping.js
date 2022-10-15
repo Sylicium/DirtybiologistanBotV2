@@ -17,7 +17,7 @@ module.exports = {
         },
         canBeDisabled: false,
         permisionsNeeded: {
-            bot: ["SEND_MESSAGES"],
+            bot: ["VIEW_CHANNEL","SEND_MESSAGES"],
             user: []
         },
         rolesNeeded: [],

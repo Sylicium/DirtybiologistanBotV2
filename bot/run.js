@@ -286,7 +286,7 @@ module.exports.run = () => {
         bot.commands.guildCommands.set(file, command);
     }
     
-    /* Dans /events/ready/slashCommands.js
+    /* Dans /events/ready/slashComandsReady.js
     bot.commands.slashCommands = new Discord.Collection();
     */
 
