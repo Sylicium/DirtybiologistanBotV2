@@ -1,7 +1,8 @@
 module.exports = {
     version: "2.1.0",
     superAdminList: [
-        "774003919625519134"
+        "774003919625519134",
+        "770334301609787392",
     ],
     bot: {
         prefix: "-",
@@ -15,7 +16,8 @@ module.exports = {
         setApplicationCommandsOnStart: true,
         setApplicationCommandsInLocal: true,
         setApplicationCommandsInLocal_guilds: [
-            "909168225936363601"
+            "909168225936363601",
+            "792139282831507467",
         ]
     },
     global: {

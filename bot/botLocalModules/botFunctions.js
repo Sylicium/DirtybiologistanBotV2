@@ -437,6 +437,19 @@ function logErrorOnDiscord(err) {
     let chan = Bot.channels.cache.get(config.static.channels.logs.errors)
     let error_id = somef.genHex(8)
 
+    let replyEmbed = new Discord.EmbedBuilder()
+    .setTitle(`❌ Une erreur est survenue`)
+    .setColor("FF0000")
+    .setDescription(` \`\`\`js\n${err.stack}\`\`\` `)
+    .setFooter({ text: `ErrorCode: ${error_id || "<!UNDEFINED_CODE_ERROR>"}` })
+
+    let replyMsg = [
+        `❌ Une erreur est survenue à l'éxécution du fichier de la commande:`,
+        ` \`\`\`js\n${err.stack} \`\`\` `,
+        `Si l'erreur persiste veuillez contacter l'assistance avec le code suivant: \`${error_id || "<!UNDEFINED_CODE_ERROR>"}\` `
+
+    ].join("\n")
+
     try {
 
         
@@ -454,25 +467,17 @@ function logErrorOnDiscord(err) {
         }
 
 
-        chan.send("@everyone",
-            new Discord.MessageEmbed()
-            .setTitle(`Error: ${error_id}`)
-            .setDescription(`ID: \`${error_id}\`\nLine: \`${callerLine}\` \nStack: \`\`\`js\n${err.stack}\`\`\` `)
-            .setFooter(`ID: ${error_id}`)
-            .setTimestamp()
-        )
-
-        let replyEmbed = new Discord.EmbedBuilder()
-            .setTitle(`❌ Une erreur est survenue`)
-            .setColor("FF0000")
-            .setFooter({ text: `ErrorCode: ${error_id || "<!UNDEFINED_CODE_ERROR>"}` })
-
-        let replyMsg = [
-            `❌ Une erreur est survenue à l'éxécution du fichier de la commande:`,
-            ` \`\`\`js\n${err} \`\`\` `,
-            `Si l'erreur persiste veuillez contacter l'assistance avec le code suivant: \`${error_id || "<!UNDEFINED_CODE_ERROR>"}\` `
-
-        ].join("\n")`❌ Une erreur est survenue à l'éxécution du fichier de la commande:\`\`\`js\n${err} \`\`\`Si l'erreur persiste veuillez contacter l'assistance avec le code suivant: \`${logged_err.id || "Une erreur est survenue"}\` `
+        chan.send({
+            content: `@everyone`,
+            embeds: [
+                (new Discord.EmbedBuilder()
+                    .setTitle(`${err ?? "Une erreur est survenue"}`)
+                    .setDescription(`ID: \`${error_id}\`\nLine: \`${callerLine}\` \nStack: \`\`\`js\n${err.stack}\`\`\` `)
+                    .setFooter({ text: `ID: ${error_id}`})
+                    .setTimestamp()
+                )
+            ]
+        })
 
         return {
             id: error_id,
@@ -483,7 +488,9 @@ function logErrorOnDiscord(err) {
         console.log(e)
         return {
             error: e,
-            id: error_id
+            id: error_id,
+            replyMsg: replyMsg,
+            replyEmbed: replyEmbed
         }
     }
 
@@ -563,7 +570,7 @@ module.exports.incorrectArgument = incorrectArgument
 
 /**
  * createMdodal(modalConfiguration): renvoie l'objet de modal créé avec la liste d'option fournie
- * @version: 1.0.0
+ * @version: 2.0.0
  * @param {Object} modalConfiguration - La liste des options du modal
 */
 function createModal(modalConfiguration) {
@@ -573,13 +580,29 @@ function createModal(modalConfiguration) {
         title: "titre",
         options: [
             {
-                customId: "test",
-                label: "coucou",
-                style: "short"
+                customId: "test",   // required
+                label: "coucou",    // required
+                style: "short",     // required
+                minLength: 10,          // optionnal
+                maxLength: 1000,        // optionnal
+                placeholder: "coucou",  // optionnal
+                value: "1",             // optionnal
+                required: true          // optionnal
             }
         ]
     }
     */
+
+    for(let op_i in modalConfiguration.options) {
+        let item = modalConfiguration.options[op_i]
+        if(item.value != undefined && item.minLength != undefined) {
+            Logger.debug("item.value:",item.value)
+            Logger.debug("item.minLength:",item.minLength)
+            Logger.debug("`${item.value}`.length",`${item.value}`.length)
+            Logger.debug(" `${item.value}`.length <= item.minLength", `${item.value}`.length <= item.minLength)
+            if( `${item.value}`.length <= item.minLength ) throw new Error(`[botf.createModal] value length is less than minLength specified.`)
+        }
+    }
 
     function getStyleFrom(styleName) {
         if(styleName == "short") {
@@ -590,16 +613,24 @@ function createModal(modalConfiguration) {
     }
 
     let modal = new Discord.ModalBuilder()
-		.setCustomId(modalConfiguration.setCustomId)
+		.setCustomId(modalConfiguration.customId)
 		.setTitle(modalConfiguration.title);
     
-    let allOptionsComponents = modalConfiguration.map((item, index) => {
-        return new Discord.ActionRowBuilder().addComponents(
-            new Discord.TextInputBuilder()
-			.setCustomId(item.customId)
-			.setLabel(item.label)
-			.setStyle(getStyleFrom(item.style))
-        )
+    let allOptionsComponents = modalConfiguration.options.map((item, index) => {
+
+        let component = new Discord.TextInputBuilder()
+            .setCustomId(item.customId)
+            .setLabel(item.label)
+            .setStyle(getStyleFrom(item.style))
+        
+        if( item.maxLength != undefined ) component.setMaxLength(item.maxLength)
+        if( item.minLength != undefined ) component.setMinLength(item.minLength)
+        if( item.placeholder != undefined ) component.setPlaceholder(item.placeholder)
+        if( item.value != undefined ) component.setValue(item.value)
+        if( item.required != undefined ) component.setRequired(item.required);
+
+        return new Discord.ActionRowBuilder().addComponents(component)
+       
     })
 
     modal.addComponents(...allOptionsComponents)

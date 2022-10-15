@@ -56,11 +56,12 @@ function writeUncaughException(e, title) {
     for(let i in log_text_split) {
         fs.appendFileSync("./logs/mainUncaugh.log",`[${date} ERROR] (unknown): ${log_text_split[i]}\n`, 'utf8');
     }
+    
 }
 
 /* Importation des modules */
 /**/
-const { Client, MessageEmbed, Collection } = require('discord.js');
+const Discord = require('discord.js');
 const config = require('./config');
 //const commands = require('./help');
 const fs = require('fs')

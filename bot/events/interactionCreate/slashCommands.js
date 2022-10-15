@@ -172,19 +172,28 @@ module.exports.onEvent = async (Modules, bot, interaction, a,b,c,d,e,f,g,h) => {
     
     cmd.require.execute(Modules, bot, interaction, data).catch(async err => {
         logger.warn(`Command crashed`,err)
+        let logged_err = bot.botf.logErrorOnDiscord(err)
+        let the_embed = logged_err.embed
+        
         let the_error_msg = {
             content: "",
-            embeds: [
-                new Modules.Discord.EmbedBuilder()
-                    .setTitle(`:x: Woops, looks like the command crashed.`)
-                    .setColor("FF0000")
-                    .setDescription(`\`\`\`js\n${err.stack}\`\`\``)
-            ]
+            embeds: [the_embed]
         }
-        try {
-            await interaction.reply(the_error_msg)
-        } catch(e) {
-            await interaction.editReply(the_error_msg)
+        let the_error_msg_fail = {
+            content: `An error occured while handling another error.`,
+            embeds: [the_embed]
         }
+
+        interaction.reply(the_error_msg).catch(() => {
+            interaction.editReply(the_error_msg).catch(() => {
+                interaction.channel.send(the_embed).catch(() => {
+                    interaction.channel.send(logged_err.replyMsg).catch(() => {
+                        interaction.channel.send({
+                            content: `An error occured while handling another error 4 times. ERROR#slashCommands.onEvent.CMD_EXECUTE_CATCH_ERR`
+                        })
+                    })
+                })  
+            })
+        })
     })
 }
