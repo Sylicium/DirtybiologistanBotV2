@@ -7,12 +7,12 @@ let somef = require("../../../localModules/someFunctions")
 let botf = require("../../botLocalModules/botFunctions")
 
 
-function sendErrorMsg(bot, message, err) {
+function sendErrorMsg(Modules, bot, message, err) {
     let logged_err = botf.logErrorOnDiscord(err)
     message.inlineReply(`❌ Une erreur est survenue à l'éxécution du fichier de la commande:\`\`\`js\n${err} \`\`\`Si l'erreur persiste veuillez contacter l'assistance avec le code suivant: \`${logged_err.id || "Une erreur est survenue"}\` `)
 }
 
-module.exports.onEvent = async (bot, message,b,c,d,e,f,g,h) => {
+module.exports.onEvent = async (Modules, bot, message,b,c,d,e,f,g,h) => {
 
     if(!message.guild) return;
     if(message.author.bot) return;
@@ -45,7 +45,7 @@ module.exports.onEvent = async (bot, message,b,c,d,e,f,g,h) => {
                 if(!botf.canExecuteCommand(message, cmd).canExecute) return;
                 
                 
-                cmd.execute(bot, command, args, data, message,b,c,d,e,f,g,h).catch(e => {
+                cmd.execute(Modules, bot, command, args, data, message,b,c,d,e,f,g,h).catch(e => {
                     logger.error(e)
                     return sendErrorMsg(bot, message, e)
                 })

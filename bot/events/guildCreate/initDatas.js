@@ -3,7 +3,7 @@ const logger = new (require("../../../localModules/logger"))()
 const { config } = require("process")
 const Database = require("../../../localModules/database")
 
-module.exports.onEvent = async (bot, guild) => {
+module.exports.onEvent = async (Modules, bot, guild) => {
 
     let guildDatas = Database.getGuildDatas(guild.id)
 

@@ -2,9 +2,6 @@
 
 const Discord = require("discord.js")
 const logger = new (require("../../../localModules/logger"))("BotCMD:ping.js")
-let config = require("../../../config")
-let botf = require("../../botLocalModules/botFunctions")
-let somef = require("../../../localModules/someFunctions")
 
 module.exports = {
     commandInformations: {
@@ -21,10 +18,10 @@ module.exports = {
         indev: false,
         hideOnHelp: false
     },
-    execute: async function(bot, command, args, data, message,b,c,d,e,f,g,h) {
+    execute: async function(Modules, bot, command, args, data, message,b,c,d,e,f,g,h) {
 
         function isStaffCmd(infos) {
-            if(somef.any(infos.permisionsNeeded.user, [
+            if(Modules.somef.any(infos.permisionsNeeded.user, [
                 'KICK_MEMBERS',
                 'BAN_MEMBERS',
                 'ADMINISTRATOR',
@@ -99,7 +96,7 @@ module.exports = {
             new Discord.MessageEmbed()
             .setTitle(`Liste des commandes`)
             .setColor("#FFFFFF")
-            .setDescription(`${icon_significations}\n${somef.isSuperAdmin(message.author.id) ? `**${hiddenCommandsCount}** commandes sont cachées` : ""}`)
+            .setDescription(`${icon_significations}\n${Modules.somef.isSuperAdmin(message.author.id) ? `**${hiddenCommandsCount}** commandes sont cachées` : ""}`)
             .addFields([
                 {
                     name: "Commandes:",
@@ -110,7 +107,7 @@ module.exports = {
                     value: staffCommands.join("\n")
                 }
             ])
-            .setFooter(config.bot.embedFooter)
+            .setFooter(Modules.config.bot.embedFooter)
         )
         return;
 

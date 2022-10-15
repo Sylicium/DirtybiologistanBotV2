@@ -2,8 +2,6 @@
 
 const Discord = require("discord.js")
 const logger = new (require("../../../localModules/logger"))("BotCMD:ping.js")
-let config = require("../../../config")
-let botf = require("../../botLocalModules/botFunctions")
 
 module.exports = {
     commandInformations: {
@@ -20,7 +18,7 @@ module.exports = {
         indev: false,
         hideOnHelp: false
     },
-    execute: function(bot, command, args, data, message,b,c,d,e,f,g,h) {
+    execute: function(Modules, bot, command, args, data, message,b,c,d,e,f,g,h) {
 
         logger.log("user:",message.author)
 

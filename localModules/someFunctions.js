@@ -140,6 +140,14 @@ function all(from_list, list_in, caseSensitive=true) {
     return true
 }
 
+module.exports.removeDuplicates = removeDuplicates
+/**
+ * removeDuplicates(): Supprime les doublons d'une liste
+ */
+function removeDuplicates(list) {
+    return list.filter((x, i) => i === list.indexOf(x))
+}
+
 module.exports.isScam = isScam
 /**
  * f() : Renvoie True si le texte entré est détecté comme une arnaque Version 1.1.1 | 21/06/2022

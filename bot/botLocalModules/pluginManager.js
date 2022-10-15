@@ -1,9 +1,9 @@
 
 const Discord = require("discord.js")
-const logger = new (require("./logger"))("BotCMD:ping.js")
-let config = require("../config")
+const logger = new (require("../../localModules/logger"))("BotCMD:ping.js")
+let config = require("../../config")
 // let botf = require("../bot/botLocalModules/botFunctions")
-let somef = require("./someFunctions")
+let somef = require("../../localModules/someFunctions")
 
 class Manager {
     constructor() {
@@ -21,9 +21,9 @@ class Manager {
         
     }
 
-    setBotInstance(bot) { this.Bot = bot }
-    setModules(modules) { this._module = modules }
-    updateModule(moduleName, _module) { this._module[moduleName] = _module }
+    _setBotInstance(bot) { this.Bot = bot }
+    _setModules(modules) { this._module = modules }
+    _updateModule(moduleName, _module) { this._module[moduleName] = _module }
 
     async _emitEvent(eventName, ...args) {
         for(let i in this._plugins) {
@@ -31,7 +31,9 @@ class Manager {
             pl.file.onEvent(eventName, ...args)
         }
     }
-    async onBotEvent(eventName, ...args) { this._emitEvent(eventName, ...args) }
+    async onBotEvent(Modules, eventName, ...args) {
+        this._emitEvent(Modules, this.Bot, eventName, ...args)
+    }
 
     getPlugin(pluginName) {
         let pl = this._plugins.filter(x => { return x.name == pluginName })

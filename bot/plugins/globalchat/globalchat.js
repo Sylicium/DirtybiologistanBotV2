@@ -5,7 +5,6 @@ const logger = new (require("../../../localModules/logger"))("BotCMD:ping.js")
 let config = require("../../../config")
 let botf = require("../../botLocalModules/botFunctions")
 let somef = require("../../../localModules/someFunctions")
-const { timingSafeEqual } = require("crypto")
 
 module.exports.configuration = {
     name: "help",
@@ -19,8 +18,13 @@ module.exports.configuration = {
     rolesNeeded: [],
     superAdminOnly: false,
     indev: false,
-    hideOnHelp: false
-    execute: async function(bot, command, args, data, message,b,c,d,e,f,g,h) {
+    hideOnHelp: false,
+}
 
-    }
+module.exports.onStart = async (Modules, bot, ...args) => {
+
+}
+
+module.exports.onEvent = async (Modules, bot, eventName, ...args) => {
+
 }

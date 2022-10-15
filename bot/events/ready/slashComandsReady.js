@@ -4,7 +4,7 @@ const fs = require("fs")
 const Discord = require("discord.js")
 const logger = new (require("../../../localModules/logger"))()
 
-module.exports.onEvent = (bot) => {
+module.exports.onEvent = (Modules, bot) => {
 
     logger.info("⬜ Chargement des slash commandes")
 

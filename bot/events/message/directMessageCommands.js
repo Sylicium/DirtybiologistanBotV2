@@ -1,7 +1,7 @@
 
 const logger = new (require("../../../localModules/logger"))()
 
-module.exports.onEvent = (bot, message) => {
+module.exports.onEvent = (Modules, bot, message) => {
 
     /*
     bot.commands_directMessage = new Collection();

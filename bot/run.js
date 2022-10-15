@@ -10,7 +10,8 @@ const Discord = require("discord.js")
 let somef = require("../localModules/someFunctions")
 const Database = require("../localModules/database")
 const botf = require("./botLocalModules/botFunctions")
-const pluginManager = require("../localModules/pluginManager")
+const pluginManager = require("./botLocalModules/pluginManager")
+const axios = require("axios")
 
 module.exports.run = () => {
 
@@ -49,7 +50,7 @@ module.exports.run = () => {
         presence: {
           status: 'idle',
           activity: {
-            name: `le démarrage...`,
+            name: `v${config.version} 🔥 Loading...`,
             type: 'WATCHING'
           }
         }
@@ -84,6 +85,7 @@ module.exports.run = () => {
 
     Database._setBotInstance_(bot)
     botf._setBotInstance(bot)
+    bot.botf = botf
 
     /* A remettre 
     fs.readdirSync("./bot/botLocalModules").forEach(botModule => {
@@ -190,6 +192,18 @@ module.exports.run = () => {
         })
     }
     */
+
+    const Modules = {
+        Database: Database,
+        config: config,
+        logger: logger,
+        somef: somef,
+        botf: botf,
+        Discord: Discord,
+
+        axios: axios,
+        fs: fs,
+    }
     
 
     let discordEventList = [
@@ -268,9 +282,9 @@ module.exports.run = () => {
             if(config.bot.force_maintenance || false) { // ou maintenance du data global.
             }
             for(let loop in eventCollection[event]) {
-                eventCollection[event][loop].onEvent(bot, ...args)
+                eventCollection[event][loop].onEvent(Modules, bot, ...args)
             }
-            pluginManager.onBotEvent(event, ...args)
+            pluginManager.onBotEvent(Modules, event, ...args)
             if(allEvents.includes(event)) {
                 
             }

@@ -1,9 +1,7 @@
 
 
-const { MessageEmbed } = require("discord.js")
+const Discord = require("discord.js")
 const logger = new (require("../../../localModules/logger"))("BotCMD:ping.js")
-let config = require("../../../config")
-let botf = require("../../botLocalModules/botFunctions")
 
 module.exports = {
     commandInformations: {
@@ -20,7 +18,7 @@ module.exports = {
         indev: false,
         hideOnHelp: false
     },
-    execute: function(bot, command, args, data, message,b,c,d,e,f,g,h) {
+    execute: function(Modules, bot, command, args, data, message,b,c,d,e,f,g,h) {
 
         logger.log("ping.js guild extended:",message.guild.dbg)
 
@@ -41,8 +39,8 @@ module.exports = {
         return;
 
         message.reply(
-            new MessageEmbed()
-                .setDescription(`${config.emojis.loading.tag} Pinging...`)
+            new Discord.EmbedBuilder()
+                .setDescription(`${Modules.config.emojis.loading.tag} Pinging...`)
         ).then(msg => {
             let latency2 = msg.createdTimestamp - message.createdTimestamp
 
@@ -50,31 +48,31 @@ module.exports = {
 
             if(latency < 0) {
                 return msg.edit(
-                    new MessageEmbed()
+                    new Discord.EmbedBuilder()
                         .setColor('00ff00')
                         .setDescription(msgPattern.replace("{{symbol}}","❔"))
                 )
             } else if(latency < 400) {
                 return msg.edit(
-                    new MessageEmbed()
+                    new Discord.EmbedBuilder()
                         .setColor('00ff00')
                         .setDescription(msgPattern.replace("{{symbol}}",":green_circle:"))
                 )
             } else if(latency < 700) {
                 return msg.edit(
-                    new MessageEmbed()
+                    new Discord.EmbedBuilder()
                         .setColor('ff7f00')
                         .setDescription(msgPattern.replace("{{symbol}}",":orange_circle:"))
                 )
             } else if(latency < 1000) {
                 return msg.edit(
-                    new MessageEmbed()
+                    new Discord.EmbedBuilder()
                         .setColor('ff0000')
                         .setDescription(msgPattern.replace("{{symbol}}",":red_circle:"))
                 )
             } else {
                 return msg.edit(
-                    new MessageEmbed()
+                    new Discord.EmbedBuilder()
                         .setColor('ff0000')
                         .setDescription(msgPattern.replace("{{symbol}}","⚠"))
                 )
