@@ -96,7 +96,8 @@ logger.info("Starting all modules...")
 /* Importation des scripts locaux */
 /**/
 let moduleList = {
-    "./bot/run": "run"
+    "./bot/run": "run",
+    "./site/server": "run"
 }
 for(let module in moduleList) {
     logger.info(`  Starting ${module} ...`)

@@ -30,7 +30,7 @@ execute = async (Modules, bot, interaction, data, a,b,c,d,e,f,g,h) => {
                 customId: "suggestion",
                 label: "Quelle est votre suggestion ?",
                 style: "paragraph",
-                minLength: 1222220,
+                minLength: 10,
                 placeholder: "Je propose de ...",
                 required: true
             }

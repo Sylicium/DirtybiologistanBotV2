@@ -22,7 +22,8 @@ module.exports = {
         ]
     },
     website: {
-        url: "https://dirtyBiology.captaincommand.repl.c"
+        url: "https://dirtyBiology.captaincommand.repl.co",
+        port: 80,
     },
     emojis: {
         "loading": {

@@ -11,6 +11,7 @@ const config = require('../../config');
 const Discord = require("discord.js")
 const Logger = new (require('../../localModules/logger'))()
 const somef = require('../../localModules/someFunctions');
+const fs = require('fs');
 
 let Bot;
 
@@ -457,17 +458,16 @@ module.exports.pageManager = pageManager
  * @param {String} error - L'erreur a log
 */
 function logErrorOnDiscord(err) {
-    let chan = Bot.channels.cache.get(config.static.channels.logs.errors)
     let error_id = somef.genHex(8)
 
     let replyEmbed = new Discord.EmbedBuilder()
     .setTitle(`❌ Une erreur est survenue`)
     .setColor("FF0000")
     .setDescription(` \`\`\`js\n${err.stack}\`\`\` `)
-    .setFooter({ text: `ErrorCode: ${error_id || "<!UNDEFINED_CODE_ERROR>"}` })
+    .setFooter({ text: `Si l'erreur persiste veuillez contacter l'assistance avec le code suivant ${error_id || "<!UNDEFINED_CODE_ERROR>"}` })
 
     let replyMsg = [
-        `❌ Une erreur est survenue à l'éxécution du fichier de la commande:`,
+        `❌ Une erreur est survenue:`,
         ` \`\`\`js\n${err.stack} \`\`\` `,
         `Si l'erreur persiste veuillez contacter l'assistance avec le code suivant: \`${error_id || "<!UNDEFINED_CODE_ERROR>"}\` `
 
@@ -475,6 +475,7 @@ function logErrorOnDiscord(err) {
 
     try {
 
+        let chan = Bot.channels.cache.get(config.static.channels.logs.errors)
         
         let callerLine;
         try {
@@ -501,6 +502,18 @@ function logErrorOnDiscord(err) {
                 )
             ]
         })
+
+        try {
+            let the_date = new Date()
+            fs.writeFileSync(`./bot/errors/autoreport_${error_id}.log`, [
+                `File created on ${(the_date.toString())} (${the_date.toLocaleString()})`,
+                ``,
+                ``,
+                `${err.stack}`
+            ].join("\n"))
+        } catch(e) {
+            Logger.warn(`Unable to write error file for error report '${error_id}'.`,e)
+        }
 
         return {
             id: error_id,
@@ -646,11 +659,11 @@ function createModal(modalConfiguration) {
             .setLabel(item.label)
             .setStyle(getStyleFrom(item.style))
         
-        if( item.maxLength != undefined ) component.setMaxLength(item.maxLength)
-        if( item.minLength != undefined ) component.setMinLength(item.minLength)
-        if( item.placeholder != undefined ) component.setPlaceholder(item.placeholder)
-        if( item.value != undefined ) component.setValue(item.value)
-        if( item.required != undefined ) component.setRequired(item.required);
+        try { if( item.maxLength != undefined ) component.setMaxLength(item.maxLength) } catch(e) { throw new Error(`Cant set modal Max Length to '${item.maxLength}'. ${e}`)}
+        try { if( item.minLength != undefined ) component.setMinLength(item.minLength) } catch(e) { throw new Error(`Cant set modal Min Length to '${item.minLength}'. ${e}`)}
+        try { if( item.placeholder != undefined ) component.setPlaceholder(item.placeholder) } catch(e) { throw new Error(`Cant set modal Placeholder to '${item.placeholder}'. ${e}`)}
+        try { if( item.value != undefined ) component.setValue(item.value) } catch(e) { throw new Error(`Cant set modal Value to '${item.value}'. ${e}`)}
+        try { if( item.required != undefined ) component.setRequired(item.required); } catch(e) { throw new Error(`Cant set modal Required field to '${item.required}'. ${e}`)}
 
         return new Discord.ActionRowBuilder().addComponents(component)
        

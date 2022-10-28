@@ -1,0 +1,349 @@
+
+body {
+    background-color: #001220;
+    background: linear-gradient(-105deg, #009acc, #363795);
+    background-attachment: fixed;
+    font-family: calibri;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#loading_all_page {
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+div#loading_all_page div.flexed {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+div#loading_all_page div.flexed.align-right {
+    align-items: flex-end;
+    justify-content: center;
+}
+div#loading_all_page h1.title {
+    margin: 0px;
+    font-size: 4vh;;
+}
+
+
+div.loading {
+}
+.loading_animation_rotatenormal {
+    animation: rotate_normal 2.5s;
+    animation-iteration-count: infinite;
+}
+.loading_animation_rotatedash {
+    animation: rotate_dash 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.ssdb_connection {
+    max-width: 700px;
+    background-color: rgba(43,45,48,0.75);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 30px #222222;
+    margin: 0px auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    color: whitesmoke;
+}
+
+
+#guild_list {
+    margin: 0px auto;
+    width: 100%;
+}
+
+#guild_list div.guild div.content {
+    width: 100%;
+}
+#guild_list div.guild div.guild_informations div.info{
+    text-align: center;
+    margin: 0px auto;
+}
+
+#guild_list div.guild div.guild_informations div.info .guild_icon_div {
+    width: fit-content;
+    height: fit-content;
+    border: solid 2px white;
+    border-radius: 100%;
+    margin: 0px auto;
+}
+#guild_list div.guild div.guild_informations div.info div.guild_icon_div img.guild_icon_img {
+    border-radius: 100%;
+    pointer-events: none;
+    width: 10vh;
+    vertical-align: middle;
+}
+#guild_list div.guild div.guild_informations div.info div.guild_icon_div.not_added {
+    border: solid 2px #bfbfbf;
+}
+#guild_list div.guild div.guild_informations div.info .guild_icon_div.not_added .guild_icon_img {
+    -webkit-filter : saturate(0%) blur(2px); /* Chrome, Safari, Opera */
+    filter : saturate(0%) blur(2px);
+    transition: 0.3s all;
+}
+#guild_list div.guild:hover div.guild_informations div.info .guild_icon_div.not_added .guild_icon_img {
+    -webkit-filter : saturate(100%) blur(px); /* Chrome, Safari, Opera */
+    filter : saturate(100%) blur(0px);
+    transition: 0.3s all;
+
+}
+
+#guild_list div.guild div.guild_informations div.info div.name .guild_name {
+    margin: 0px;
+    font-size: 2.5vh;
+}
+#guild_list div.guild div.guild_buttons div.button {
+    border-radius: 500px;
+    padding:5px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5vh;
+    cursor: pointer;
+    transition: 0.5s all;
+    font-weight: bold;
+    
+    /* background: linear-gradient(to left, transparent 50%, teal 50%); */
+}
+#guild_list div.guild div.guild_buttons div.button_add_to_guild {
+    /*border: solid 2px #00CC00; */
+    border: solid 2px rgb(126, 126, 126);
+    color: rgb(193, 193, 193);
+    background: linear-gradient(to left, transparent 50%, rgb(87, 87, 87) 50%);
+    background-size: 200%;
+    background-position: right;
+}
+#guild_list div.guild div.guild_buttons div.button_manage_guild {
+    border: solid 2px #dbbd00;
+    background: #dbbe0055;
+    background-size: 200%;
+    background-position: left;
+}
+#guild_list div.guild div.guild_buttons div.button:hover {
+    transform: translate(0px, -5px);
+    background-position: left;
+}
+
+#guild_list div.guild div.guild_buttons div.button_manage_guild:hover {
+    background: #ffe22269;
+}
+
+
+
+
+
+
+@keyframes rotate_dash {
+    /* 100% { transform: rotate(360deg); }*/
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes rotate_normal {
+    0% { transform: rotate(0turn); }
+    1% { transform: rotate(0.01turn); }
+    2% { transform: rotate(0.02turn); }
+    3% { transform: rotate(0.03turn); }
+    4% { transform: rotate(0.04turn); }
+    5% { transform: rotate(0.05turn); }
+    6% { transform: rotate(0.06turn); }
+    7% { transform: rotate(0.07turn); }
+    8% { transform: rotate(0.08turn); }
+    9% { transform: rotate(0.09turn); }
+    10% { transform: rotate(0.1turn); }
+    11% { transform: rotate(0.11turn); }
+    12% { transform: rotate(0.12turn); }
+    13% { transform: rotate(0.13turn); }
+    14% { transform: rotate(0.14turn); }
+    15% { transform: rotate(0.15turn); }
+    16% { transform: rotate(0.16turn); }
+    17% { transform: rotate(0.17turn); }
+    18% { transform: rotate(0.18turn); }
+    19% { transform: rotate(0.19turn); }
+    20% { transform: rotate(0.2turn); }
+    21% { transform: rotate(0.21turn); }
+    22% { transform: rotate(0.22turn); }
+    23% { transform: rotate(0.23turn); }
+    24% { transform: rotate(0.24turn); }
+    25% { transform: rotate(0.25turn); }
+    26% { transform: rotate(0.26turn); }
+    27% { transform: rotate(0.27turn); }
+    28% { transform: rotate(0.28turn); }
+    29% { transform: rotate(0.29turn); }
+    30% { transform: rotate(0.3turn); }
+    31% { transform: rotate(0.31turn); }
+    32% { transform: rotate(0.32turn); }
+    33% { transform: rotate(0.33turn); }
+    34% { transform: rotate(0.34turn); }
+    35% { transform: rotate(0.35turn); }
+    36% { transform: rotate(0.36turn); }
+    37% { transform: rotate(0.37turn); }
+    38% { transform: rotate(0.38turn); }
+    39% { transform: rotate(0.39turn); }
+    40% { transform: rotate(0.4turn); }
+    41% { transform: rotate(0.41turn); }
+    42% { transform: rotate(0.42turn); }
+    43% { transform: rotate(0.43turn); }
+    44% { transform: rotate(0.44turn); }
+    45% { transform: rotate(0.45turn); }
+    46% { transform: rotate(0.46turn); }
+    47% { transform: rotate(0.47turn); }
+    48% { transform: rotate(0.48turn); }
+    49% { transform: rotate(0.49turn); }
+    50% { transform: rotate(0.5turn); }
+    51% { transform: rotate(0.51turn); }
+    52% { transform: rotate(0.52turn); }
+    53% { transform: rotate(0.53turn); }
+    54% { transform: rotate(0.54turn); }
+    55% { transform: rotate(0.55turn); }
+    56% { transform: rotate(0.56turn); }
+    57% { transform: rotate(0.57turn); }
+    58% { transform: rotate(0.58turn); }
+    59% { transform: rotate(0.59turn); }
+    60% { transform: rotate(0.6turn); }
+    61% { transform: rotate(0.61turn); }
+    62% { transform: rotate(0.62turn); }
+    63% { transform: rotate(0.63turn); }
+    64% { transform: rotate(0.64turn); }
+    65% { transform: rotate(0.65turn); }
+    66% { transform: rotate(0.66turn); }
+    67% { transform: rotate(0.67turn); }
+    68% { transform: rotate(0.68turn); }
+    69% { transform: rotate(0.69turn); }
+    70% { transform: rotate(0.7turn); }
+    71% { transform: rotate(0.71turn); }
+    72% { transform: rotate(0.72turn); }
+    73% { transform: rotate(0.73turn); }
+    74% { transform: rotate(0.74turn); }
+    75% { transform: rotate(0.75turn); }
+    76% { transform: rotate(0.76turn); }
+    77% { transform: rotate(0.77turn); }
+    78% { transform: rotate(0.78turn); }
+    79% { transform: rotate(0.79turn); }
+    80% { transform: rotate(0.8turn); }
+    81% { transform: rotate(0.81turn); }
+    82% { transform: rotate(0.82turn); }
+    83% { transform: rotate(0.83turn); }
+    84% { transform: rotate(0.84turn); }
+    85% { transform: rotate(0.85turn); }
+    86% { transform: rotate(0.86turn); }
+    87% { transform: rotate(0.87turn); }
+    88% { transform: rotate(0.88turn); }
+    89% { transform: rotate(0.89turn); }
+    90% { transform: rotate(0.9turn); }
+    91% { transform: rotate(0.91turn); }
+    92% { transform: rotate(0.92turn); }
+    93% { transform: rotate(0.93turn); }
+    94% { transform: rotate(0.94turn); }
+    95% { transform: rotate(0.95turn); }
+    96% { transform: rotate(0.96turn); }
+    97% { transform: rotate(0.97turn); }
+    98% { transform: rotate(0.98turn); }
+    99% { transform: rotate(0.99turn); }
+    100% { transform: rotate(1turn); }
+}
+
+
+@media screen and (min-width: 801px) { /* PC */
+    body {
+        background-attachment: fixed;
+    }
+
+    #guild_list > div.guild {
+        display: inline-flex;
+        background-color: #36393F;
+        color: white;
+        /* max-width: 700px; */
+        /* min-width: 200px; */
+        /* width: fit-content; */
+        width: 300px;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+        border: solid 1px #FFF;
+        overflow-wrap: break-word;
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 800px) { /* Mobile */
+    
+    #toasts {
+        font-size: 5vw;
+    }
+
+    #guild_list > div.guild {
+        display: block;
+        background-color: #36393F;
+        color: white;
+        /* max-width: 700px; */
+        /* min-width: 200px; */
+        /* width: fit-content; */
+        max-width: 500px;
+        padding: 10px;
+        margin: 5px 30px 5px 30px;
+        margin: 10px auto;
+        border-radius: 10px;
+        border: solid 1px #FFF;
+        overflow-wrap: break-word;
+    }
+    #guild_list div.guild div.guild_buttons div.button {
+        width: 20vh;
+        margin: 0px auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

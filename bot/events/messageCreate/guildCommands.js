@@ -7,7 +7,12 @@ const { config } = require("process");
 
 function sendErrorMsg(Modules, bot, message, err) {
     let logged_err = Modules.botf.logErrorOnDiscord(err)
-    message.inlineReply(`❌ Une erreur est survenue à l'éxécution du fichier de la commande:\`\`\`js\n${err} \`\`\`Si l'erreur persiste veuillez contacter l'assistance avec le code suivant: \`${logged_err.id || "Une erreur est survenue"}\` `)
+    let msg_content = `❌ Une erreur est survenue à l'éxécution du fichier de la commande:\`\`\`js\n${err} \`\`\`Si l'erreur persiste veuillez contacter l'assistance avec le code suivant: \`${logged_err.id || "Une erreur est survenue"}\` `
+    try {
+        message.inlineReply(msg_content)
+    } catch(e) {
+        message.reply(msg_content).catch(e => { console.log(e) })
+    }
 }
 
 module.exports.onEvent = async (Modules, bot, message,b,c,d,e,f,g,h) => {
@@ -21,7 +26,7 @@ module.exports.onEvent = async (Modules, bot, message,b,c,d,e,f,g,h) => {
 
     //console.log("les data: ",data)
 
-    logger.debug("Got message: "+message.content)
+    logger.debug("Got messageCreate: "+message.content)
 
     
     let args = message.content.slice(data.get.prefix.length).split(' ');
@@ -45,10 +50,19 @@ module.exports.onEvent = async (Modules, bot, message,b,c,d,e,f,g,h) => {
                 
                 cmd.execute(Modules, bot, command, args, data, message,b,c,d,e,f,g,h).catch(e => {
                     logger.error(e)
-                    return sendErrorMsg(bot, message, e)
+                    return sendErrorMsg(Modules, bot, message, e)
                 })
                 return;
             } catch(err) {
+
+                let logged_err = bot.botf.logErrorOnDiscord(err)
+
+                try {
+                    logger.debug("logged_err",logged_err)
+                    message.reply({
+                        embeds: [logged_err.replyEmbed]
+                    })
+                } catch(e) { }
 
 
                 let addText = ""
@@ -72,11 +86,11 @@ module.exports.onEvent = async (Modules, bot, message,b,c,d,e,f,g,h) => {
                     } else {
                         return;
                         logger.error(err)
-                        return sendErrorMsg(bot, message, err)
+                        return sendErrorMsg(Modules, bot, message, err)
                     }
                 } else {
                     logger.error(err)
-                    return sendErrorMsg(bot, message, err)
+                    return sendErrorMsg(Modules, bot, message, err)
                 }
             }
         }

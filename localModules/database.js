@@ -5,7 +5,8 @@ const MongoClient = require('mongodb').MongoClient;
 
 const patterns = {
     serverData: require("../datas/patterns/serverData"),
-    globalData: require("../datas/patterns/globalData")
+    globalData: require("../datas/patterns/globalData"),
+    pluginData: require("../datas/patterns/pluginData")
 }
 
 // v1.0.0 - 24/04/2022
@@ -61,6 +62,7 @@ class Database {
         )
     }
 
+
     async getAccountByID(identifiant) {
         return this.Mongo.db(this._usedDataBaseName).collection("accounts").findOne({id:identifiant})
     }
@@ -90,6 +92,25 @@ class Database {
         )
     }
 
+    async getPluginDatas(pluginID) {
+        let object = await this.Mongo.db(this._usedDataBaseName).collection("pluginDatas").findOne({"pluginID":`${pluginID}`})
+        if(!object) {
+            //logger.debug("!object")
+            let p = patterns.pluginData(pluginID)
+            await this.Mongo.db(this._usedDataBaseName).collection("pluginDatas").insertOne(p)
+            object = await this.Mongo.db(this._usedDataBaseName).collection("pluginDatas").findOne({"pluginID":`${pluginID}`})
+        }
+
+        return new PluginClass(
+            {
+                databaseName: this._usedDataBaseName,
+                collectionName: "pluginDatas",
+                _id: object._id
+            },
+            object
+        )
+    }
+
 
 
 }
@@ -104,6 +125,10 @@ ServerData_file._setDatabase(Database_)
 let GlobalSettingsClass_file = require("./class_globalSettings.js")
 let GlobalSettingsClass = GlobalSettingsClass_file.GlobalSettingsClass
 GlobalSettingsClass_file._setDatabase(Database_)
+
+let PluginClass_file = require("./class_pluginData.js")
+let PluginClass = PluginClass_file.PluginClass
+PluginClass_file._setDatabase(Database_)
 
 
 module.exports = Database_

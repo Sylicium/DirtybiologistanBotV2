@@ -1,0 +1,72 @@
+
+
+
+div.manage_guild_content {
+    height: 100%;
+}
+
+div#mg_guild_informations_banner h1,h2,h3,h4,h5,h6,p,a,button{
+    margin: 0px;
+}
+div#mg_guild_informations_banner {
+    background-color: aqua;
+    display: flex;
+    padding: 5px 10px 5px 10px;
+}
+div#mg_guild_informations_banner div.info {
+    vertical-align: middle;
+    display: inline-flex;
+    height: 100%;
+    flex-grow: 4;
+    /* border: 1px solid black; */
+    margin: auto;
+    min-width: 100px;
+    text-align: center;
+    margin-right: 5px;
+}
+div#mg_guild_informations_banner div.back_to_guild_list {
+    text-align: center;
+}
+div#mg_guild_informations_banner div.back_to_guild_list div.content{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 1.25vh;
+    margin: 15px auto;
+}
+div#mg_guild_informations_banner div.info.content_name {
+    width: fit-content;
+}
+div#mg_guild_informations_banner div.info.info_member_count {
+    text-align: left;
+}
+div#mg_guild_informations_banner div.info.info_member_count div.content div.item{
+    margin: 5px;
+}
+div#mg_guild_informations_banner div.info.small_width {
+    /*width: 250px;
+    max-width: 250px;
+    min-width: 250px;*/
+    width: fit-content;
+    max-width: fit-content;
+    min-width: fit-content;
+}
+
+div#mg_guild_informations_banner div.info div.content .markdown_1{
+    background-color: #2F3136;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+
+/*****/
+
+div#manage_guild {
+    background-color: aquamarine;
+    height: 100%;
+}
+div#mg_select_setting {
+}

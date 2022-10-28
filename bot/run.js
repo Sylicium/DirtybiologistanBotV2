@@ -15,6 +15,7 @@ const axios = require("axios")
 
 module.exports.run = () => {
 
+    
 
     let bot = require('./botLocalModules/singleton_bot')
     bot = new Discord.Client({
@@ -86,6 +87,7 @@ module.exports.run = () => {
     Database._setBotInstance_(bot)
     botf._setBotInstance(bot)
     bot.botf = botf
+
 
     /* A remettre 
     fs.readdirSync("./bot/botLocalModules").forEach(botModule => {
@@ -205,6 +207,12 @@ module.exports.run = () => {
         fs: fs,
     }
     
+    pluginManager._setBotInstance(bot)
+    pluginManager._setModules(Modules)
+    pluginManager.start()
+
+    bot.pluginManager = pluginManager
+    
 
     let discordEventList = [
         "applicationCommandCreate",
@@ -284,7 +292,7 @@ module.exports.run = () => {
             for(let loop in eventCollection[event]) {
                 eventCollection[event][loop].onEvent(Modules, bot, ...args)
             }
-            pluginManager.onBotEvent(Modules, event, ...args)
+            pluginManager.onBotEvent(event, ...args)
             if(allEvents.includes(event)) {
                 
             }

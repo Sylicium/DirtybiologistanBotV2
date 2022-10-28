@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        DirtyBiologistan | Panel discord
+    </title>
+    <meta charset="utf-8">
+    <meta property="og:title" content="DBG gouv | Elections > Consuls">
+    <meta property="og:description" content="Votez pour les élire les Consuls">
+    <meta property="og:image" content="https://dirtybiology.captaincommand.repl.co/site/img/icone_vote_blanc.png">
+    <meta name="theme-color" content="#2F3136">
+    
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./assets/css/bot_style.css">
+    <link rel="stylesheet" href="./assets/css/manage_guild.css">
+    
+</head>
+<body>
+
+    <div id="toasts"></div>
+    <!--
+        https://discord.com/oauth2/authorize?scope=bot+applications.commands&response_type=code&permissions=8&client_id=905825005303119913&guild_id=<guild id>
+
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-bczRLJ gWJhPp sc-rx9ec6-0 ePvfSV" main="#F2F4FB"><path d="M23 12C23 18.0751 18.0751 23 12 23" data-stroke="main" stroke="#F2F4FB" stroke-width="2" stroke-linecap="round"></path></svg>
+    -->
+
+    <div id="loading_all_page">
+        <div class="flexed align-right">
+            <div class="loading loading_animation_rotatenormal loading_div_svg" width="40" height="40" style="position:absolute; ">
+                <svg class="loading_animation_rotatedash" width="40" height="40" viewBox="0 0 24 24" fill="none" main="#F2F4FB"><path d="M23 12C23 18.0751 18.0751 23 12 23" data-stroke="main" stroke="#F2F4FB" stroke-width="2" stroke-linecap="round"></path></svg>
+            </div>
+        </div>
+        <div class="flexed">
+            <h1 class="title">Récupération des serveurs..</h1>
+        </div>
+
+    </div>
+
+
+
+    <div id="select_guild" hidden>
+        <h1>Selectionnez un serveur discord</h1>
+        <div id="guild_list">
+
+            
+            <div class="guild guild_2098572395 noselect">
+                <div class="content">
+
+                    <div class="guild_informations">
+                        <div class="info">
+                            <div class="guild_icon_div not_added">
+                                <img class="guild_icon_img" src="https://cdn.discordapp.com/icons/959613928961351712/5e4c485559cef7a9d6ec3122900111e8.webp?size=96"/>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name"><h2 class="guild_name">United Factions of r/Place</h2></div>
+                        </div>
+                    </div>
+                    <div class="guild_buttons">
+                        <div class="button button_add_to_guild" onclick="addBotToGuild('308739085738590735')">Ajouter au serveur</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="guild guild_2098572395 noselect">
+                <div class="content">
+
+                    <div class="guild_informations">
+                        <div class="info">
+                            <div class="guild_icon_div">
+                                <img class="guild_icon_img" src="https://cdn.discordapp.com/icons/904736069080186981/6892cb8273e70c723f7fab28f3a5132f.webp?size=96"/>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name"><h2 class="guild_name">République Populaire du DirtyBiologistan</h2></div>
+                        </div>
+                    </div>
+                    <div class="guild_buttons">
+                        <div class="button button_manage_guild" onclick="manageGuild('République Populaire du DirtyBiologistan')">Configurer</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="guild guild_2098572395 noselect">
+                <div class="content">
+
+                    <div class="guild_informations">
+                        <div class="info">
+                            <div class="guild_icon_div not_added">
+                                <img class="guild_icon_img" src="https://cdn.discordapp.com/icons/947480702918742090/a6dd24d7ac4e22663d08151129626f0e.webp?size=256"/>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name"><h2 class="guild_name">ORU - Organisation des Régions Unies</h2></div>
+                        </div>
+                    </div>
+                    <div class="guild_buttons">
+                        <div class="button button_add_to_guild" onclick="addBotToGuild('947480702918742090')">Ajouter au serveur</div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+    
+
+    <div id="changes_unsaved" hidden>
+        <div class="content">
+            <p>Attention, vous avez des changements non enregistré</p>
+            <button>Reset</button>
+            <button>Sauvegarder</button>
+        </div>
+
+    </div>
+    
+    <div class="manage_guild_content" hidden>
+
+        <div id="mg_guild_informations_banner">
+            <div class="back_to_guild_list">
+                <div class="content">
+                    <h1>Retour</h1>
+                    <!--
+                    <svg viewBox="0 0 80 80" width="40" height="40">
+                        <rect width="100" height="20"></rect>
+                        <rect y="30" width="100" height="20"></rect>
+                        <rect y="60" width="100" height="20"></rect>
+                    </svg>
+                -->
+                </div>
+            </div>
+            <div class="info info_name">
+                <div class="content">
+                    <h1 class="name"><span class="guild_name">République Populaire du DirtyBiologistan</span></h1>
+                </div>
+            </div>
+            <div class="info small_width">
+                <div class="content">
+                    <h2 class="id"><span class="guild_id markdown_1">343646346435435</span></h2>
+                </div>
+            </div>
+            <div class="info small_width">
+                <div class="content">
+                    <h2 class="channel_count"><span class="guild_channel_count markdown_1">134</span> salons</h2>
+                </div>
+            </div>
+            <div class="info small_width info_member_count">
+                <div class="content">
+                    <div class="item member_count">
+                        <h4><span class="guild_member_count markdown_1">5722</span> membres</h3>
+                    </div>
+                    <div class="item bot_count">
+                        <h4><span class="guild_bot_count markdown_1">13</span> bots</h3>
+                    </div>
+                    <div class="item all_member_count">
+                        <h4><span class="guild_all_member_count markdown_1">5735</span> membres & bot totaux</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="manage_guild">
+            <div class="mg_manage_all_settings">
+                <div id="mg_select_setting">
+                    <div class="item category_name">Automatisation</div>
+                    <div class="item setting">Auto Messages</div>
+                    <div class="item setting">Auto Messages</div>
+                    <div class="item separator">-----</div>
+
+
+                </div>
+                <div id="mg_manage_setting"></div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- <script src="/socket.io/socket.io.js"></script> -->
+<script src="./assets/script/script.js"></script>
+<script>
+
+    window.onload = () => {
+        setTimeout(() => {
+            a = `$,$,\`,\`,\`,\`,\`,\`,\`,>,^,\`,',.,.,.,.,',\`,^,;,\`,\`,\`,\`,\`,\`,\`,$,$
+$,\`,\`,\`,\`,\`,\`,,,^,',.,',^,l,i,!,I,",',.,',\`,",\`,\`,\`,\`,\`,\`,$
+\`,\`,\`,\`,^,\`,^,',.,",~,/,a,c,q,$,$,W,X,?,:,.,',^,\`,\`,\`,\`,\`,\`
+\`,\`,\`, ,^,\`,',\`,-,k,$,$,Y, ,",1,},},$,$,a,{,",.,\`,\`,\`,\`,\`,\`
+\`,\`,^,^,\`,.,:,Y,$,J,?,+,', , , , ,.,),0,8,$,Z,l,.,\`,',\`,\`,\`
+\`,\`,\`,\`,.,;,q,$,$,-, , , , , , , , , ,;,$,M,$,$,>,.,\`,\`,\`,\`
+\`,\`,^,',,,w,$,o,M,!, , , , , , , , , , ,_,8,*,$,$,!,.,^,\`,\`
+\`,",\`,\`,X,$,h,$,(, , , , , , , , , , , ,.,m,$,a,$,m,",',",\`
+\`,^,.,+,$,a,$,q,\`, , , , .^. , .^. , , , ,l,8,o,b,$,1,.,\`,'
+l,',^,O,$,a,$,J,., , , , , .___. , , , , ,",a,W,a,o,o,;,.,,
+^,.,<,$,a,a,$,!, , , , , , , , , , , , , , ,],$,a,a,$,[,.,^
+\`,',(,$,h,o,M,", , , , , , , , , , , , , , ,i,$,o,M,$,L,\`,'
+\`,\`,0,$,h,a,$,(,",',., , , , , , , , ,.,',:,U,$,W,W,$,a,:,'
+',,,b,8,a,W,W,$,o,w,Z,~,\`,., , ,',.,[,Z,w,$,$,8,$,M,W,$,!,.
+',;,a,8,M,W,8,a,M,$,$,C,[,},[,?,|,_,U,$,M,*,M,$,8,M,*,$,>,.
+',;,*,$,$,$,$,8,W,M,$,L,},\,/,\,Y,[,),$,b,*,M,8,$,*,a,$,>,.
+',,,k,$,$,$,$,$,$,M,$,U,-,c,(,X,(,|,},m,M,*,8,8,$,M,*,$,!,.
+\`,\`,0,$,8,$,$,$,8,a,$,1,},Y,(,m,1,/,U,{,$,W,8,$,$,W,8,b,:,'
+\`,',(,$,M,$,$,8,a,$,X,1,\,Y,|,m,(,(,*,{,~,$,$,8,$,8,$,C,\`,'
+^,.,<,$,*,8,W,a,$,/,-,m,|,z,X,U,X,|,p,d, ,],$,a,8,M,$,[,.,^
+",',^,Q,$,a,k,$,1, ,(,w,(,|,Q,\,q,1,|,$,_,:,$,W,W,$,M,:,.,"
+\`,\`,.,~,$,b,a,*,I,~,$,-,!,(,L,~,W,_,,,$,$,Y,a,$,*,$,1,.,\`,'
+\`,^,\`,',c,$,h,a,d,$,$,!,:,/,{,.,q,),\`,a,$,$,8,*,$,Z,",',^,\`
+\`,\`,\`,',,,O,$,M,$,a,$,],},U,_,^,a,$,1,b,$,*,a,$,8,l,.,\`,\`,\`
+\`,\`,\`,\`,.,:,Z,$,o,M,W,o,$,-,>,Y,$,W,$,$,W,a,$,W,i,.,\`,^,^,\`
+\`,\`,',,,\`,.,,,X,$,$,o,h,$,>,,,$,*,M,o,o,$,$,0,I,.,\`,',\`,\`,\`
+\`,\`,\`,',:,\`,',\`,_,O,$,$,$,1,;,$,W,$,$,$,p,[,^,.,\`,',\`,\`,\`,\`
+\`,\`,\`,\`,',\`,\`,\`,.,",~,/,q,p,C,$,h,p,X,-,,,.,',\`,^,\`,\`,\`,\`,\`
+$,\`,\`,\`,\`,\`,\`,^,\`,',.,',^,;,!,l,;,",',.,',\`,^,\`,^,\`,\`,\`,\`,$
+$,$,\`,\`,\`,\`,\`,\`,\`,^,^,\`,',',.,.,',',\`,^,^,\`,\`,\`,\`,\`,\`,\`,$,$`
+            console.log("\n"+a+`
+┌──────────────────┬────────────────────┬─────────────────┐
+│                  └─ DirtyBiologistan ─┘                 │
+│           ┌ This bot is powered by Sylicium ┐   v1.0.0  │
+└───────────┴─────────────────────────────────┴───────────┘`)
+// └ ─ ┐ ┴ ┬ ├ ─ ┼ │ ┘ ┌ ¯
+        }, 1000)
+    }
+
+    setTimeout(() => {
+        return;
+        document.getElementById("loading_all_page").hidden = true
+        document.getElementById("select_guild").hidden = false
+    }, 2000)
+
+
+    function parseHTML(string) {
+        let DOMparser = new DOMParser(); // DOMparser.parseFromString("string")
+        let string2 = `<div class="ZojGHNZkjZOJzcAEJNGZACILkgjhazLCDigjhlibzdfcikbgzakCieeeeeeeeebdhbikhbfIZHKCDFikZAC">${string}</div>`
+        console.log(string2)
+        let a = DOMparser.parseFromString(string2, "text/html")
+        let b = a.getElementsByClassName("ZojGHNZkjZOJzcAEJNGZACILkgjhazLCDigjhlibzdfcikbgzakCieeeeeeeeebdhbikhbfIZHKCDFikZAC")[0].firstChild
+        return b
+    }
+    let loading_svg = `<div class="loading_animation_rotatenormal" width="40" height="40">
+        <svg class="loading_animation_rotatedash" width="40" height="40" viewBox="0 0 24 24" fill="none" main="#F2F4FB"><path d="M23 12C23 18.0751 18.0751 23 12 23" data-stroke="main" stroke="#F2F4FB" stroke-width="2" stroke-linecap="round"></path></svg>
+    </div>`
+    // let a = parseHTML(loading_svg)
+    //let b =document.getElementById("select_guild")
+    //b.appendChild(a)
+
+
+    //let socket = io()
+
+    //let ConnectionToken = getCookie("connectionToken")
+
+    
+
+</script>
+
+</html>
