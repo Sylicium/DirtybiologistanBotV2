@@ -7,27 +7,19 @@ let botf = require("../../botLocalModules/botFunctions")
 let somef = require("../../../localModules/someFunctions")
 
 let configuration = {
-    name: "globalchat_v1",
-    description: "Affiche la liste des commandes.",
-    enabled: false,
-    indev: false,
-    permisionsNeeded: {
-        bot: [],
-        user: []
-    },
-    rolesNeeded: [],
-    superAdminOnly: false,
-    indev: false,
-    hideOnHelp: false,
+    pluginID: "globalchat_v1",
+    description: "Tchat interserveur entre tous les discords du dibistan",
 }
 module.exports.configuration = configuration
 
 let Global = {
-    PluginData: null
+    PluginData: null,
+    Modules: {}
 }
 
 module.exports.onStart = async (Modules, bot, ...args) => {
-    Global.PluginData = Modules.Database.getPluginDatas(this.configuration.name)
+    Global.PluginData = Modules.Database.getPluginDatas(this.configuration.pluginID)
+    Global.Modules = Modules
 }
 
 module.exports.onEvent = async (Modules, bot, eventName, ...args) => {
@@ -39,10 +31,63 @@ let Events = {}
 Events["messageCreate"] = async (Modules, bot, ...args) => {
 
 }
+
+
+
+
+class PluginPanel {
+    constructor(userID, guildID) {
+        this.panelFor = {
+            userID: userID,
+            guildID: guildID
+        }
+        this.pluginID = configuration.pluginID
+        this.description = configuration.description
+        this.DBPluginDatas = Global.Database.getPluginDatas(configuration.pluginID)
+        this.DBServerDatas = Global.Database.getGuildDatas(guildID)
+
+        this.defaultOptions = [
+            { optionName: "channel", value: "2598729537" },
+            { optionName: "main_user", value: "11111111" },
+        ]
+    }
+
+    async _initPlugin() {
+        await this.DBServerDatas.initPlugin(this.pluginID)
+        await this.DBServerDatas.setPluginOptionMany(this.pluginID, this.defaultOptions)
+        return true
+    }
+    _isInitialized() {
+        return this.DBPluginDatas.isPluginInitialized(this.pluginID)
+    }
+    
+    /**
+     * f(): Activer ou désactiver le plugin sur la guilde
+     * @param {Boolean} boolean Activer ou désactiver le plugin sur la guilde
+     */
+    async _togglePlugin(boolean) {
+        if(!this._isInitialized()) await this._initPlugin()
+        this.DBServerDatas.toggleEnablePlugin(this.pluginID,boolean)
+    }
+
+
+
+
+}
+
+module.exports.PluginPanel = PluginPanel
+
+
+
+
+
+
+
+
 /*
 class Plugin {
     constructor() {
-        this.pluginName = "GlobalChat"
+        this.pluginID = "GlobalChat"
         this.type = "guild_plugin" // guild_plugin / global_plugin
         this.settings = [
             {

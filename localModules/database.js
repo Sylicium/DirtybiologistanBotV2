@@ -1,5 +1,6 @@
 
 const logger = new (require("./logger"))()
+const somef = require("./someFunctions")
 
 const MongoClient = require('mongodb').MongoClient;
 
@@ -21,6 +22,15 @@ const patterns = {
     return new Database(TheMongoInstance);
     
 }*/
+
+
+let Temp_ = {
+    guildDatas: {
+        editing: {
+            // "guild_id": false
+        }
+    }
+}
 
 
 class Database {
@@ -72,24 +82,35 @@ class Database {
     async findAccounts(search_params) {
         return this.Mongo.db(this._usedDataBaseName).collection("accounts").find(search_params).toArray()
     }
-    
+    /**
+     * f(): Renvoie un object permettant de manipuler les données de la BDD pour la guilde renseignée
+     * @param {String} guild_id - L'id de la guilde à récupérer
+     * @returns class_guildDatas
+     */
     async getGuildDatas(guild_id) {
-        let object = await this.Mongo.db(this._usedDataBaseName).collection("serverDatas").findOne({"guild.id": guild_id})
-        //logger.debug("ok getGuildDatas")
-        if(!object) {
-            //logger.debug("!object")
-            let g = patterns.serverData(this._botInstance.guilds.cache.get(guild_id))
-            await this.Mongo.db(this._usedDataBaseName).collection("serverDatas").insertOne(g)
-            object = await this.Mongo.db(this._usedDataBaseName).collection("serverDatas").findOne({"guild.id": guild_id})
+        try {
+            while(Temp_.guildDatas.editing[guild_id]) { await somef.sleep(1)} // Evite de créer plusieur fois l'objet dans la base de donnée si il n'existait pas et que cette fonction est appellée plusieur fois très rapidement
+            Temp_.guildDatas.editing[guild_id] = true
+            let object = await this.Mongo.db(this._usedDataBaseName).collection("serverDatas").findOne({"guild.id": guild_id})
+            //logger.debug("ok getGuildDatas")
+            if(!object) {
+                logger.debug("!object", (new Error()))
+                let g = patterns.serverData(this._botInstance.guilds.cache.get(guild_id))
+                await this.Mongo.db(this._usedDataBaseName).collection("serverDatas").insertOne(g)
+                object = await this.Mongo.db(this._usedDataBaseName).collection("serverDatas").findOne({"guild.id": guild_id})
+                Temp_.guildDatas.editing[guild_id] = false
+            }
+            return new ServerClass(
+                {
+                    databaseName: this._usedDataBaseName,
+                    collectionName: "serverDatas",
+                    _id: object._id
+                },
+                object
+            )
+        } catch(e) {
+            Temp_.guildDatas.editing[guild_id] = false
         }
-        return new ServerClass(
-            {
-                databaseName: this._usedDataBaseName,
-                collectionName: "serverDatas",
-                _id: object._id
-            },
-            object
-        )
     }
 
     async getPluginDatas(pluginID) {

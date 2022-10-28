@@ -212,7 +212,7 @@ module.exports.run = () => {
     pluginManager.start()
 
     bot.pluginManager = pluginManager
-    
+
 
     let discordEventList = [
         "applicationCommandCreate",
@@ -289,6 +289,7 @@ module.exports.run = () => {
             //logger.debug(`Got event ${event}`)
             if(config.bot.force_maintenance || false) { // ou maintenance du data global.
             }
+
             for(let loop in eventCollection[event]) {
                 eventCollection[event][loop].onEvent(Modules, bot, ...args)
             }

@@ -108,11 +108,11 @@ class PluginClass {
 
     
     /**
-     * setDisabled() : Permet d'activer ou de désactiver le plugin
+     * setEnabled() : Permet d'activer ou de désactiver le plugin
      * @param {Boolean} boolean - Activer ou désactiver le plugin
      */
-     async setDisabled(boolean) {
-        await setValue("disabled",boolean)
+     async setEnabled(boolean) {
+        await setValue("enabled",boolean)
     }
     /**
      * setMaintenance() : Permet d'activer ou désactiver la maintenance du plugin
@@ -139,9 +139,6 @@ class PluginClass {
      getMiniDBValue(dbName, dbDocumentKey) {
         return (this._object.miniDB[dbName][dbDocumentKey] ?? undefined)
     }
-
-
-
 
     
 }

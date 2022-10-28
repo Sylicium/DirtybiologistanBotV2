@@ -55,16 +55,56 @@ class ServerClass {
      * f() : Définit le field renseigné avec la valeur donnée
      * @param {string} field - Le field à modifier
      * @param {any} value - La valeur à mettre
+     * @param {Boolean} forceUpsert - Forcer ou non l'upsert 
      */
-    async setValue(field, value) {
+     async _setValue(field, value, forceUpsert=true) {
         await Database_.Mongo.db(this.mongoSettings.databaseName).collection(this.mongoSettings.collectionName).updateOne(
             { _id: this.mongoSettings._id },
             {
               $set: {
-                field: value
+                [`${field}`]: value
               }
             },
-            { upsert: true }
+            { upsert: forceUpsert }
+        )
+        await this._updateObject()
+        return;
+    }
+
+    /**
+     * f() : Ajoute la valeur renseignée à la liste correspondant au field
+     * @param {string} field - Le field à modifier
+     * @param {any} value - La valeur à ajouter
+     * @param {Boolean} forceUpsert - Forcer ou non l'upsert 
+     */
+     async _pushValue(field, value, forceUpsert=false) {
+        await Database_.Mongo.db(this.mongoSettings.databaseName).collection(this.mongoSettings.collectionName).updateOne(
+            { _id: this.mongoSettings._id },
+            {
+              $push: {
+                [`${field}`]: value
+              }
+            },
+            { upsert: forceUpsert }
+        )
+        await this._updateObject()
+        return;
+    }
+
+    /**
+     * f() : Retire l'élément correspondant au field
+     * @param {string} field - Le field à modifier
+     * @param {Boolean} forceUpsert - Forcer ou non l'upsert 
+     */
+    async _unsetValue(field, forceUpsert=false) {
+        await Database_.Mongo.db(this.mongoSettings.databaseName).collection(this.mongoSettings.collectionName).updateOne(
+            { _id: this.mongoSettings._id },
+            {
+              $unset: {
+                [`${field}`]: ""
+              }
+            },
+            { upsert: forceUpsert }
         )
         await this._updateObject()
         return;
@@ -74,16 +114,17 @@ class ServerClass {
      * f() : Incrémente le field renseigné de la valeur amount
      * @param {string} field - Le field à incrémenter
      * @param {Number} amount - La liste en entrée
+     * @param {Boolean} forceUpsert - Forcer ou non l'upsert 
      */
-    async increaseValue(field, amount) {
+    async _increaseValue(field, amount, forceUpsert=true) {
         await Database_.Mongo.db(this.mongoSettings.databaseName).collection(this.mongoSettings.collectionName).updateOne(
             { _id: this.mongoSettings._id },
             {
               $inc: {
-                field: amount
+                [`${field}`]: amount
               }
             },
-            { upsert: true }
+            { upsert: forceUpsert }
         )
         await this._updateObject()
         return;
@@ -178,6 +219,126 @@ class ServerClass {
     */
     editCommand(name) {
 
+    }
+
+
+    getPlugins() { return this.get.settings.plugins }
+
+    /**
+     * f(): Initialise le plugin renseigné en créant l'espace de stockage des settings dans les données de la guilde.
+     * @param {String} pluginID - L'identifiant unique du plugin
+     * @returns Boolean
+     */
+    async initPlugin(pluginID) {
+        if(this.getPluginSettings(pluginID)) return false
+        this._pushValue(`settings.plugins.`, {
+            pluginID: pluginID,
+            enabled: false
+        })
+        return true
+    }
+    /**
+     * f()
+     * @param {String} pluginID - L'identifiant unique du plugin
+     * @returns Boolean
+     */
+    async resetPluginSettings(pluginID) {
+        let pluginSettings = this.getPluginSettings(pluginID)
+        if(!pluginSettings) {
+            Logger.warn(`Trying to reset a plugin that not exists for the guild '${this.get.id}'.`)
+            return false
+        }
+        let indexOfPluginInList = this.get.settings.plugins.indexOf(pluginSettings)
+        this._unsetValue(`settings.plugins.${indexOfPluginInList}`)
+        return true
+    }
+
+    /**
+     * f()
+     * @param {String} pluginID - L'identifiant unique du plugin
+     * @returns Object or undefined
+     */
+    getPluginSettings(pluginID) {
+        return this.get.settings.plugins.filter((item,index) => { return item.pluginID == pluginID})[0]
+    }
+    /**
+     * isPluginInitialized(): Renvoie true si le plugin a déjà été initialisé et possède de données, false sinon.
+     * @param {String} pluginID - L'identifiant unique du plugin
+     * @returns Boolean
+     */
+    isPluginInitialized(pluginID) {
+        return !!this.getPluginSettings(pluginID)
+    }
+    /**
+     * f()
+     * @param {String} pluginID - L'identifiant unique du plugin
+     * @param {String} optionName - Le nom de l'option du plugin à modifier
+     * @param {Any} value - La valeur à mettre
+     * @returns true or undefined
+     */
+    async setPluginOption(pluginID, optionName, value) {
+        let pluginSettings = this.getPluginSettings(pluginID)
+        if(!pluginSettings) {
+            Logger.warn(`Trying to set plugin option on an unexisting plugin of the guild '${this.get.id}'.`)
+            return undefined
+        }
+        let indexOfPluginInList = this.get.settings.plugins.indexOf(pluginSettings)
+        return this._setValue(`settings.plugins.${indexOfPluginInList}.options.${optionName}`,value)
+    }
+    /**
+     * f()
+     * @param {String} pluginID - L'identifiant unique du plugin
+     * @param {String} optionName - Le nom de l'option du plugin à modifier
+     * @param {Any} value - La valeur à mettre
+     * @returns true or undefined
+     */
+    async setPluginOptionMany(pluginID, listOfOptionsAndValues) {
+        /*
+        objectOfOptionsAndValues = [
+            { optionName: "channel", value: "2598729537" },
+            { optionName: "main_user", value: "11111111" },
+        ]
+        */
+        let pluginSettings = this.getPluginSettings(pluginID)
+        if(!pluginSettings) {
+            Logger.warn(`Trying to set many plugin option on an unexisting plugin of the guild '${this.get.id}'.`)
+            return undefined
+        }
+        for(let i in listOfOptionsAndValues) {
+            await this.setPluginOption(pluginID, listOfOptionsAndValues[i].optionName, listOfOptionsAndValues[i].value)
+        }
+        return true
+    }
+
+    /**
+     * f()
+     * @param {String} pluginID - L'identifiant unique du plugin
+     * @param {String} optionName - Le nom de l'option du plugin à récupérer
+     * @returns optionValue or undefined
+     */
+     getPluginOption(pluginID, optionName) {
+        let pluginSettings = this.getPluginSettings(pluginID)
+        if(!pluginSettings) {
+            Logger.warn(`Trying to get plugin option on an unexisting plugin of the guild '${this.get.id}'.`)
+            return undefined
+        }
+        return pluginSettings.options[optionName]
+    }
+
+    /**
+     * toggleEnablePlugin(): Active ou désactive le plugin sur la guilde
+     * @param {String} pluginID - L'identifiant unique du plugin
+     * @param {Boolean} boolean - Activer ou désactiver le plugin
+     * @returns 
+     */
+    async toggleEnablePlugin(pluginID, boolean) {
+        let pluginSettings = this.getPluginSettings(pluginID)
+        if(!pluginSettings) {
+            Logger.warn(`Trying to edit enable value of an unexisting plugin for the guild '${this.get.id}'.`)
+            return undefined
+        }
+        let indexOfPluginInList = this.get.settings.plugins.indexOf(pluginSettings)
+        return this._setValue(`settings.plugins.${indexOfPluginInList}.enabled`, boolean)
     }
 
 

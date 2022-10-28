@@ -11,7 +11,7 @@ class Manager {
         this.Bot = undefined
         this._plugins = [
             /*{
-                name: "aaa",
+                pluginID: "aaa",
                 file: require()
             }*/
         ]
@@ -35,14 +35,14 @@ class Manager {
                             logger.warn(`[w] ${e} <- /bot/events/${plugin}/${file} .onStart()`,e)
                         }
                     }
-                    this._addPlugin(the_require.configuration.name, the_require)
+                    this._addPlugin(the_require.configuration.pluginID, the_require)
                 }
             })
         });
     }
-    _addPlugin(name, require) {
+    _addPlugin(pluginID, require) {
         this._plugins.push({
-            name: name,
+            pluginID: pluginID,
             file: require
         })
     }
@@ -73,8 +73,8 @@ class Manager {
         this._emitEvent(this._getModules(), this.Bot, eventName, ...args)
     }
 
-    _emitToPlugin(name, eventName, ...args) {
-        let plugin = this._getPlugins().filter((x, index) => { return x.name == name})[0]
+    _emitToPlugin(pluginID, eventName, ...args) {
+        let plugin = this._getPlugins().filter((x, index) => { return x.pluginID == pluginID})[0]
         if(plugin) {
             plugin.file.onEvent(eventName, bot, ...args)
             return true

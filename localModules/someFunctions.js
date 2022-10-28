@@ -130,6 +130,16 @@ function all(from_list, list_in, caseSensitive=true) {
     return true
 }
 
+/**
+ * sleep(): Attent avec await le temps renseigné
+ * @param {Number} time - Le nombre de millisecondes à attendre
+ * @returns 
+ */
+function sleep(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
+}
+module.exports.sleep = sleep
+
 module.exports.removeDuplicates = removeDuplicates
 /**
  * removeDuplicates(): Supprime les doublons d'une liste

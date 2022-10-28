@@ -17,7 +17,7 @@ module.exports = (pluginID) => {
                 name: "guild name",
             }*/
         ],
-        disabled: false,
+        enabled: false,
         maintenance: false,
         defaultPermissions: [ // the default permissions required to use the plugin
 

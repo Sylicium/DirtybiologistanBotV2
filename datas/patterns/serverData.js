@@ -31,10 +31,10 @@ module.exports = (guild_object) => {
         },
         settings: {
             commands: [
-                // { name: "ping", disabled: false}
+                // { pluginID: "ping", enabled: false}
             ],
             plugins: [
-                // { name: "globalchat", disabled: true, options: { channel: "0123456789", }}
+                // { pluginID: "globalchat", enabled: true, options: { channel: "0123456789", }}
             ]
         }
     }
